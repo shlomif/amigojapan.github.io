@@ -451,67 +451,25 @@ function load() {
         '		<BR><BR>Note, this is not an exahausive list, if you want me to add a term you know, or just want to ask me for some Katakana term, email me at usmpadow@gmail.com' +
 "");
 	var q = getParameterByName("q");
-	if(q==""){
-		document.getElementById("maincol_container").innerHTML = "";
-	    document.getElementById("maincol_container").innerHTML = pages.get('main');
-	}
-	if(q=="The_pros_and_cons_of_quick_and_dirty_programming"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('quick_and_dirty');
-	}
-	if(q=="Padow_family_story"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('padow_family');
-	}
-	if(q=="Reason_why_I_came_to_Japan"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('reason_came_to_japan');
-	}
-	if(q=="Story_of_how_I_met_my_wife"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('how_met_wife');
-	}
-	if(q=="Method_I_used_to_study_Japanese"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('japanese_method');
-	}
-	if(q=="Classic_funny_moments_in_programming_channel_on_freenode"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('classics');
-	}
-	if(q=="Hypothesis_of_4D_time"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('time_hypothesis');
-	}
-	if(q=="Compilation_of_multiplication_tricks_for_people_with_bad_memory"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('multiplication_tricks');
-	}
-	if(q=="Ideas_for_inventions"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('ideas');
-	}
-	if(q=="amigojapan_Usmar_padows_identity_prover"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('crypto_ids');
-	}
-	if(q=="Self_quotes"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('self_quotes');
-	}
-	if(q=="First_freenode_anime_channel_Tenkaichibudoukai"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('first_tenkaichibudoukai');
-	}
-	if(q=="My_unusual_schooling"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('schooling_story');
-	}
-    if(q=="Japanese_programming_technical_terms"){
-		document.getElementById("maincol_container").innerHTML = "";
-		document.getElementById('maincol_container').innerHTML = pages.get('Japanese_tech_terms');
-	}
+    let by_id = new Map();
+    by_id.set("",'main');
+    by_id.set("The_pros_and_cons_of_quick_and_dirty_programming",'quick_and_dirty');
+    by_id.set("Padow_family_story",'padow_family');
+    by_id.set("Reason_why_I_came_to_Japan",'reason_came_to_japan');
+    by_id.set("Story_of_how_I_met_my_wife",'how_met_wife');
+    by_id.set("Method_I_used_to_study_Japanese",'japanese_method');
+    by_id.set("Classic_funny_moments_in_programming_channel_on_freenode",'classics');
+    by_id.set("Hypothesis_of_4D_time",'time_hypothesis');
+    by_id.set("Compilation_of_multiplication_tricks_for_people_with_bad_memory",'multiplication_tricks');
+    by_id.set("Ideas_for_inventions",'ideas');
+    by_id.set("amigojapan_Usmar_padows_identity_prover",'crypto_ids');
+    by_id.set("Self_quotes",'self_quotes');
+    by_id.set("First_freenode_anime_channel_Tenkaichibudoukai",'first_tenkaichibudoukai');
+    by_id.set("My_unusual_schooling",'schooling_story');
+    by_id.set("Japanese_programming_technical_terms",'Japanese_tech_terms');
 
+    const text = pages.get(by_id.get(q));
+    document.getElementById("maincol_container").innerHTML = text;
 
 	/*
 	document.getElementById("mylink").onclick = function() {
