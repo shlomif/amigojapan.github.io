@@ -79,6 +79,8 @@ window.addEventListener("pageshow", function(evt){
        }, false);
 </script>
 </div>
+</div>
+</div>
 </body>
 </html>`;
 
