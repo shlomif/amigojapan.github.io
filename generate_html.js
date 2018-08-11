@@ -73,7 +73,7 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
 const html_suffix = `
 			</div>
   </div>
-<script>
+<script type="text/javascript">
 window.addEventListener("pageshow", function(evt){
            load();
        }, false);
