@@ -26,7 +26,7 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
 				<li><a href="http://amigojapan.github.io/Global_Game_Jam_2017_blog_post.html">Global Game Jam 2017</a></li>
 				<li><a href="http://amigojapan.github.io/amigojapans_programming_curriculum.html">my programming curriculum</a></li>
                 <li><a href="http://amigojapan.github.io/?q=Japanese_programming_technical_terms">Japanese programming technical terms</a></li>
-				<li><a href=http://amigojapan.github.io/friends_pages.html>My programmer friends page</a></li>
+				<li><a href="http://amigojapan.github.io/friends_pages.html">My programmer friends page</a></li>
 				<li><a href="http://amigojapan.github.io/8_basics_of_programming.html">8 basics of programming in C and python</a></li>
 				<li><a href="http://amigojapan.github.io/8_Code_Katastrophies_that_help.html">8 Code Katastrophies that help</a></li>
 
@@ -131,33 +131,33 @@ function generate() {
         '\n			<br/>' +
         '\n			<br/>Projects include:' +
         '\n			<br/><br/><br/><h3>Programming education projects:</h3>' +
-        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/3dpl/>3DPL GE</a> an environment for novice programmers to learn programming(part of my solution for transitioning from block programming to text programming)' +
-        '\n			<br/><br/><br/><a href=https://amigojapan.github.io/s-found/>s-found</a> Visual programming language similar to scratch in HTML5 with real-time-interpretation and generates JavaScript (part of my solution for transitioning from block programming to text programming)' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/m-programmer>m-programmer</a>  a project for beginner programmers to learn how a computers think' +
-        '\n			<br/><br/><br/><a href=http://amigojapan.github.com/Logo-Programming-Game/>Logo programming game</a> a game that is simillar to LOGO but in Javascript' +
-        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/maths-from-scratch/>Maths from scratch</a>, an attempt to define math in JavaScript, starting with just counting.' +
+        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/3dpl/">3DPL GE</a> an environment for novice programmers to learn programming(part of my solution for transitioning from block programming to text programming)' +
+        '\n			<br/><br/><br/><a href="https://amigojapan.github.io/s-found/">s-found</a> Visual programming language similar to scratch in HTML5 with real-time-interpretation and generates JavaScript (part of my solution for transitioning from block programming to text programming)' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/m-programmer">m-programmer</a>  a project for beginner programmers to learn how a computers think' +
+        '\n			<br/><br/><br/><a href="http://amigojapan.github.com/Logo-Programming-Game/">Logo programming game</a> a game that is simillar to LOGO but in Javascript' +
+        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/maths-from-scratch/">Maths from scratch</a>, an attempt to define math in JavaScript, starting with just counting.' +
         '\n			<br/><br/><br/><h3>Utilities:</h3>' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/Gekijou>Gekijou</a> a tool for making screenplays into youtube videos using voice synthesis' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/LibrePasswordListGenerator/>LibrePasswordListGenerator</a>, Generates a list of passwords based on a master password, and helps you manage which sites they are for. no passwords are stored on the computer' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/ejspeak>ejspeak</a> A project that makes espeak speak Japanese' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/password_lockdown>password_lockdown</a>, Locks a password down so that you can\'t get it until a certain date/time, you can use it to lock down zip file passwords until the time you are ready for people to use them, also good for locking yoruself out of something until a certain time.' +
-        '\n			<br/><br/><br/><a href=https://play.google.com/store/apps/details?id=com.usmpadow.MobileRADIDE&amp;hl=en/>Mobile RAD IDE</a>, an IDE for developing Android and iOS apps directly on an Android device' +
-        '\n			<br/><br/><br/><a href=http://amigojapan.github.com/web-JavaScript-programmable-scientific-calculator/>JS web programmable scientific calculator</a>' +
-        '\n			<br/><br/><br/><a href=http://wiki.unity3d.com/index.php/Linux_system_profiler.bash>Unity3d linux crash system profiler</a>, a tool for gathering information of a system so that you can send a good bug report to the Unity team ' +
-        '\n			<br/><br/><br/><a href=https://amigojapan.github.io/tascam_dr-05_time_calculator/tascam_dr-05_time_calculator.html>tascam dr-05 time calculator</a>, This program will let you set a start time when you start recording, and a mark time, and it will tell you where to look in the files of a tascam dr-50 recorder' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/Gekijou">Gekijou</a> a tool for making screenplays into youtube videos using voice synthesis' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/LibrePasswordListGenerator/">LibrePasswordListGenerator</a>, Generates a list of passwords based on a master password, and helps you manage which sites they are for. no passwords are stored on the computer' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/ejspeak">ejspeak</a> A project that makes espeak speak Japanese' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/password_lockdown">password_lockdown</a>, Locks a password down so that you can\'t get it until a certain date/time, you can use it to lock down zip file passwords until the time you are ready for people to use them, also good for locking yoruself out of something until a certain time.' +
+        '\n			<br/><br/><br/><a href="https://play.google.com/store/apps/details?id=com.usmpadow.MobileRADIDE&amp;hl=en/">Mobile RAD IDE</a>, an IDE for developing Android and iOS apps directly on an Android device' +
+        '\n			<br/><br/><br/><a href="http://amigojapan.github.com/web-JavaScript-programmable-scientific-calculator/">JS web programmable scientific calculator</a>' +
+        '\n			<br/><br/><br/><a href="http://wiki.unity3d.com/index.php/Linux_system_profiler.bash">Unity3d linux crash system profiler</a>, a tool for gathering information of a system so that you can send a good bug report to the Unity team ' +
+        '\n			<br/><br/><br/><a href="https://amigojapan.github.io/tascam_dr-05_time_calculator/tascam_dr-05_time_calculator.html">tascam dr-05 time calculator</a>, This program will let you set a start time when you start recording, and a mark time, and it will tell you where to look in the files of a tascam dr-50 recorder' +
         '\n			<br/><br/><br/><h3>Human well-being:</h3>' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/BlindOS>BlindOS</a> a program so that blind people can use their computer.' +
-        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/blood_pressure_analyzer.html>Free blood pressure analyzer(uses data from the Mayo Clinic)</a>' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/BlindOS">BlindOS</a> a program so that blind people can use their computer.' +
+        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/blood_pressure_analyzer.html">Free blood pressure analyzer(uses data from the Mayo Clinic)</a>' +
         '\n			<br/><br/><br/><h3>Hacks:</h3>' +
-        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/Arduino-Retro-Computer-with-SD-card-and-LCD-display-and-Keyboard-input-with-BASIC-interpreter/>The Arduino Retro computers LCD</a> version and <a href=http://amigojapan.github.io/Arduino-Retro-Computer-TV/>TV Version</a>' +
-        '\n			<br/><br/><br/><a href=http://amigojapan.github.com/Arduino-LED-Matrix-Display/>Arduino LED Matrix Display</a>' +
+        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/Arduino-Retro-Computer-with-SD-card-and-LCD-display-and-Keyboard-input-with-BASIC-interpreter/">The Arduino Retro computers LCD</a> version and <a href="http://amigojapan.github.io/Arduino-Retro-Computer-TV/">TV Version</a>' +
+        '\n			<br/><br/><br/><a href="http://amigojapan.github.com/Arduino-LED-Matrix-Display/">Arduino LED Matrix Display</a>' +
         '\n			<br/><br/><br/><h3>Failed projects:</h3>' +
-        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/Amigojapan-Programming-101-course/AmigojapanProgramming101.html>the amigojapan programming 101 course</a>' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/ajdg>ajdg</a> an attempt at making a better text compression algorithm.' +
+        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/Amigojapan-Programming-101-course/AmigojapanProgramming101.html">the amigojapan programming 101 course</a>' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/ajdg">ajdg</a> an attempt at making a better text compression algorithm.' +
         '\n			<br/><br/><br/><h3>old projects:</h3>' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/tom-burger-2>tom burger 2</a> a hamburger shop simulation based on the time I worked for dom dom hamburger' +
-        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/Be-Osama>be osama</a> terrorism strategy game' +
-        '\n			<br/><br/><br/><a href=http://sandbox.yoyogames.com/games/72683-pachidomi>pachidomi</a> a game that mixes pachinko with a platformer' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/tom-burger-2">tom burger 2</a> a hamburger shop simulation based on the time I worked for dom dom hamburger' +
+        '\n			<br/><br/><br/><a href="https://github.com/amigojapan/Be-Osama">be osama</a> terrorism strategy game' +
+        '\n			<br/><br/><br/><a href="http://sandbox.yoyogames.com/games/72683-pachidomi">pachidomi</a> a game that mixes pachinko with a platformer' +
         '\n			<br/>' +
         '\n			<br/> Usmar A Padow (amigojapan), Contact me at usmpadow@gmail.com' +
         '\n			<br/><a href="http://www.bryantsmith.com">web template by web design florida</a>' +
@@ -181,7 +181,7 @@ function generate() {
         '		to Padovich. When my great grandparents arrived at Elis island.  The authorities did not understand their last name and changed it to Padow.' +
         '		My grand parents Alexander (born 1911 died at age 90) and Lilian (lived 97 years) where born in the United States in New York\'s lower east side and' +
         '		eventually moved to Brooklyn where my father Robert Padow was born. They finally went to live in West Palm Beach FL. My grandfather was a chemist and my' +
-        '		grandmother an English teacher. My granparen’s hobby was playing bridge, <a href=http://www.nytimes.com/1986/10/01/nyregion/bridge-young-pair-draws-attention-at-an-event-in-white-plains.html>here is an article in the NY Times about them: </a>' +
+        '		grandmother an English teacher. My granparen’s hobby was playing bridge, <a href="http://www.nytimes.com/1986/10/01/nyregion/bridge-young-pair-draws-attention-at-an-event-in-white-plains.html">here is an article in the NY Times about them: </a>' +
         '		<BR>' +
         '		My father (Robert Frank, July 1940 - July 2013) was a piano tuner and aspiring movie writer.  He immigrated to Mexico where he met my' +
         '		mom Gloria, aspiring writer (add links), in the state of Chiapas, my mother\'s home town is San Christobal de las Casas. My parents eventually settled in Mexico' +
@@ -191,11 +191,11 @@ function generate() {
         '		soon got married. Our son was born in December 22, 2003. I have lived in Kawaguchi, Saitama prefecture, Japan for '+ time_from_arrival() +
         '		My wife does not like her name, so we call her "Lynn".  My son is called "Chihiro Alexander"' +
         '		<BR><BR>Please take the time to read my father\'s works which were very valuable to him:' +
-        '		<BR>(English) <a href=http://amigojapan.github.io/dad/Goldmine.pdf>Goldmine in the sky</a>, the tragic story about one of my father\'s friends' +
-        '		<BR>(English) <a href=http://amigojapan.github.io/dad/Guys.pdf>Guys from the avenew</a>, a story about Flatbush Brooklyn NY in the 1950s' +
-        '		<BR>(English) <a href=http://amigojapan.github.io/dad/World.pdf>World corners</a>, an article written by my dad' +
-        '		<BR>(Spanish) <a href=http://amigojapan.github.io/dad/El_Casamiento.pdf>El casamiento de Jovita</a>, play that takes place in Mexico' +
-        '		<BR>(SPanish) <a href=http://amigojapan.github.io/dad/EL_Capitan.pdf>El capitán tiene malos sueños</a>, Spanish adaptation of Nelson Algren\'s "The captain has bad dreams"' +
+        '		<BR>(English) <a href="http://amigojapan.github.io/dad/Goldmine.pdf">Goldmine in the sky</a>, the tragic story about one of my father\'s friends' +
+        '		<BR>(English) <a href="http://amigojapan.github.io/dad/Guys.pdf">Guys from the avenew</a>, a story about Flatbush Brooklyn NY in the 1950s' +
+        '		<BR>(English) <a href="http://amigojapan.github.io/dad/World.pdf">World corners</a>, an article written by my dad' +
+        '		<BR>(Spanish) <a href="http://amigojapan.github.io/dad/El_Casamiento.pdf">El casamiento de Jovita</a>, play that takes place in Mexico' +
+        '		<BR>(SPanish) <a href="http://amigojapan.github.io/dad/EL_Capitan.pdf">El capitán tiene malos sueños</a>, Spanish adaptation of Nelson Algren\'s "The captain has bad dreams"' +
         '		<BR><BR>Usmar A Padow (amigojapan) usmpadow@gmail.com - 2015' +
         '</div>' +
 "");
@@ -242,8 +242,8 @@ function generate() {
         '		<BR><h3>TempleOS</h3>' +
         '		<BR>There is a guy that decided to make an OS from scratch. And not just any OS, but an OS that is a temple dedicated to God. He\'s obviously quite a religious extremist. this is quite an advanced OS, which includes many games and tools for example an IDE which instead of displaying just the filename of a 3d model in the editor, it actually displays the 3d model inside the editor with the code.' +
         '		<BR>The most funny part is that one of the applications that runs inside his OS is a program called Talk to God, which uses an random number generator to get random words from the bible and put them together into sentences in some way,he really believes his application can talk directly to God, he thinks it is a derivative of “Talking in tongues”' +
-        '		<BR>this is the link to his OS webpage  <a href=http://www.templeos.org>http://www.templeos.org</a>' +
-        '		<BR>but I really recommend you watch <a href=http://www.templeos.org/Wb/Home/Wb2/Videos.html>his videos</a><BR><BR>BTW, we also have the developer of Satan Linux, so maybe they can duel it out some day :)' +
+        '		<BR>this is the link to his OS webpage  <a href="http://www.templeos.org">http://www.templeos.org</a>' +
+        '		<BR>but I really recommend you watch <a href="http://www.templeos.org/Wb/Home/Wb2/Videos.html">his videos</a><BR><BR>BTW, we also have the developer of Satan Linux, so maybe they can duel it out some day :)' +
         '		<BR><BR>' +
         '		<BR><h3>Program to do everything</h3>' +
         '		<BR>Some user had the idea that he could make a program that can replace all programs. He said for example a web site for ordering a taxi and a web site for ordering a pizza could all be simplified into a method for ordering anything and this could basically be made into a program that can do anything.' +
@@ -323,7 +323,7 @@ function generate() {
         '		<BR><BR>' +
         '		<BR>	One last trick, is that you may choose to use a different trick if the number is not a square (a number times itself) or where both the numbers are over 6X6. for example, instead of using the finger trick for 8X2  you can do 2X8 which should be easier. and the result will be the same.' +
         '		<BR><BR>' +
-        '		<BR>	 <a href=http://pastebin.com/2PNMxDYS>click here for More tricks for multiplication and practice tools</a>	' +
+        '		<BR>	 <a href="http://pastebin.com/2PNMxDYS">click here for More tricks for multiplication and practice tools</a>	' +
 "");
     pages.set('ideas', '<div class="maincol">' +
         '		<h2>Ideas for inventions</h2>' +
@@ -396,7 +396,7 @@ function generate() {
     pages.set('crypto_ids', '<div class="maincol">' +
         '		<h2>Cryptographic IDs for proving my identity</h2>' +
         '		<BR><BR>Here is a list of cryptographical IDs that I may need to use some day to prove that I am who I am.' +
-        '		<BR><BR>To determine if I am who I am, you need to run a text that I will provide you through a sha512 hasher like this <a href=http://www.miniwebtool.com/sha512-hash-generator/>online sha512 hash Generator</a> if it matches any of my IDs, that means it is me, ofcourse unless my clear text file has been compromised, let\'s hope that is not he case :). <BR><BR>Notes: mostly I am doing this for fun, but you never know when it may be useful, I recommend everyone does this...<BR>I know the IDs look ugly on my html page, I think this is because HTML does not break up a word with no spaces in it...<BR>Also I can\'t take credit for this, I am imitating a friend who did this...<BR><BR>' +
+        '		<BR><BR>To determine if I am who I am, you need to run a text that I will provide you through a sha512 hasher like this <a href="http://www.miniwebtool.com/sha512-hash-generator/">online sha512 hash Generator</a> if it matches any of my IDs, that means it is me, ofcourse unless my clear text file has been compromised, let\'s hope that is not he case :). <BR><BR>Notes: mostly I am doing this for fun, but you never know when it may be useful, I recommend everyone does this...<BR>I know the IDs look ugly on my html page, I think this is because HTML does not break up a word with no spaces in it...<BR>Also I can\'t take credit for this, I am imitating a friend who did this...<BR><BR>' +
         '		<BR>ID0 is fe3633dce83758a9a750b93cb73a761e751d626e9326188c519fdead7dd1f45bd47615560e7fda1aaa75fe96f1cc9a452fd6d2c6128830114c8c581d5e98ffdf' +
         '		<BR>ID1 is 0eb85db5a851a08d2bfb79b9b89654e5f7e4da0589994cc8b22c174ad8ce081cf6f58d1fd6bca28b51221163ca3fb59b016bbee130e8914fa44a2831f30a15ee' +
         '		<BR>ID2 is 39173e03ec4d62113f202817f0666a72f6318158f4f6d89b36d9e7572ac91056257665e28e5783dbca2b57872e27c4fd25c3a7a1c78fea16c5f692abe360d1c5' +
