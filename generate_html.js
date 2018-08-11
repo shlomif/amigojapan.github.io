@@ -22,45 +22,45 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
         	<h2>Programming</h2>
         	<ul>
             	<li><a href="http://amigojapan.github.io">My projects</a></li>
-				<BR><li><a href="http://amigojapan.github.io/?q=The_pros_and_cons_of_quick_and_dirty_programming">Two kinds of programmers</a></li>
-				<BR><li><a href="http://amigojapan.github.io/Global_Game_Jam_2017_blog_post.html">Global Game Jam 2017</a></li>
-				<BR><li><a href="http://amigojapan.github.io/amigojapans_programming_curriculum.html">my programming curriculum</a></li>
-                <BR><li><a href="http://amigojapan.github.io/?q=Japanese_programming_technical_terms">Japanese programming technical terms</a></li>
-				<BR><li><a href=http://amigojapan.github.io/friends_pages.html>My programmer friends page</a></li>
-				<BR><li><a href="http://amigojapan.github.io/8_basics_of_programming.html">8 basics of programming in C and python</a></li>
-				<BR><li><a href="http://amigojapan.github.io/8_Code_Katastrophies_that_help.html">8 Code Katastrophies that help</a></li>
+				<li><a href="http://amigojapan.github.io/?q=The_pros_and_cons_of_quick_and_dirty_programming">Two kinds of programmers</a></li>
+				<li><a href="http://amigojapan.github.io/Global_Game_Jam_2017_blog_post.html">Global Game Jam 2017</a></li>
+				<li><a href="http://amigojapan.github.io/amigojapans_programming_curriculum.html">my programming curriculum</a></li>
+                <li><a href="http://amigojapan.github.io/?q=Japanese_programming_technical_terms">Japanese programming technical terms</a></li>
+				<li><a href=http://amigojapan.github.io/friends_pages.html>My programmer friends page</a></li>
+				<li><a href="http://amigojapan.github.io/8_basics_of_programming.html">8 basics of programming in C and python</a></li>
+				<li><a href="http://amigojapan.github.io/8_Code_Katastrophies_that_help.html">8 Code Katastrophies that help</a></li>
 
             </ul>
         	<h2>Life stories</h2>
             <ul>
 	            <li><a href="http://amigojapan.github.io/?q=Padow_family_story">Story of the Padow family</a></li>
-                <BR><li><a href="http://amigojapan.github.io/?q=Reason_why_I_came_to_Japan">The reason why I came to Japan</a></li>
-	        <BR><li><a href="http://amigojapan.github.io/?q=Story_of_how_I_met_my_wife">The story of how I met my Japanese wife</a></li>
-                <BR><li><a href="http://amigojapan.github.io/?q=Method_I_used_to_study_Japanese">The method I used to study Japanese</a></li>
-	        <BR><li><a href="http://amigojapan.github.io/?q=Classic_funny_moments_in_programming_channel_on_freenode">Classic funny moments in ##programming on freenode</a></li>
-	        <BR><li><a href="http://amigojapan.github.io/?q=My_unusual_schooling">My unusual schooling</a></li>
+                <li><a href="http://amigojapan.github.io/?q=Reason_why_I_came_to_Japan">The reason why I came to Japan</a></li>
+	        <li><a href="http://amigojapan.github.io/?q=Story_of_how_I_met_my_wife">The story of how I met my Japanese wife</a></li>
+                <li><a href="http://amigojapan.github.io/?q=Method_I_used_to_study_Japanese">The method I used to study Japanese</a></li>
+	        <li><a href="http://amigojapan.github.io/?q=Classic_funny_moments_in_programming_channel_on_freenode">Classic funny moments in ##programming on freenode</a></li>
+	        <li><a href="http://amigojapan.github.io/?q=My_unusual_schooling">My unusual schooling</a></li>
 
 	    </ul>
         	<h2>Philosophy articles</h2>
         	<ul>
 
-		<BR><li><a href="from_philosophy_to_the_building_blocks_of_computers.html">philosophy to building blocks of computers</a></li>
-            	<BR><li><a href="http://amigojapan.github.io/?q=Hypothesis_of_4D_time">Hypothesis on 4D time </a></li>
+		<li><a href="from_philosophy_to_the_building_blocks_of_computers.html">philosophy to building blocks of computers</a></li>
+            	<li><a href="http://amigojapan.github.io/?q=Hypothesis_of_4D_time">Hypothesis on 4D time </a></li>
             	<!--add later? <li><a href="#">draft of article on lying</a></li>>-->
             </ul>
         	<h2>Religion</h2>
             <ul>
-	        <BR><li><a href="https://www.youtube.com/watch?v=PhAkY-pwUvg">Deconversion from the church of world messianity</a></li>
-                <BR><li><a href="http://amigojapan.github.io/Japanese_Haggada">Japanese Haggadah</a></li>
+	        <li><a href="https://www.youtube.com/watch?v=PhAkY-pwUvg">Deconversion from the church of world messianity</a></li>
+                <li><a href="http://amigojapan.github.io/Japanese_Haggada">Japanese Haggadah</a></li>
             </ul>
         	<h2>Other</h2>
         	<ul>
 				<li><a href="http://amigojapan.github.io/?q=Ideas_for_inventions">Ideas for inventions</a></li>
-            			<BR><li><a href="http://amigojapan.github.io/?q=Self_quotes">Self quotes</a></li>
-            			<BR><li><a href="http://amigojapan.github.io/?q=Compilation_of_multiplication_tricks_for_people_with_bad_memory">Multiplication tricks for people with bad memory</a></li>
-				<BR><li><a href="http://amigojapan.github.io/?q=amigojapan_Usmar_padows_identity_prover">Cryptographic identity proof</a></li>
-				<BR><li><a href="http://amigojapan.github.io/?q=First_freenode_anime_channel_Tenkaichibudoukai">First Tenkaichibudoukai 2016</a></li>
-				<BR><li><a href="http://imgur.com/a/ICFvK">My wife's drawings</a></li>
+            			<li><a href="http://amigojapan.github.io/?q=Self_quotes">Self quotes</a></li>
+            			<li><a href="http://amigojapan.github.io/?q=Compilation_of_multiplication_tricks_for_people_with_bad_memory">Multiplication tricks for people with bad memory</a></li>
+				<li><a href="http://amigojapan.github.io/?q=amigojapan_Usmar_padows_identity_prover">Cryptographic identity proof</a></li>
+				<li><a href="http://amigojapan.github.io/?q=First_freenode_anime_channel_Tenkaichibudoukai">First Tenkaichibudoukai 2016</a></li>
+				<li><a href="http://imgur.com/a/ICFvK">My wife's drawings</a></li>
 		</ul>
 
       </div>
@@ -78,7 +78,6 @@ window.addEventListener("pageshow", function(evt){
            load();
        }, false);
 </script>
-</div>
 </div>
 </div>
 </body>
@@ -125,43 +124,44 @@ function time_from_arrival() {
 
 function generate() {
     let pages = new Map();
-    pages.set('main', ' <div class="maincol">' +
-        '        	<h2>Introduction</h2>' +
-        '			<BR>amigojapan is a developer and part time engRish(pun intended) and Spanish teacher that has lived '+ time_from_arrival() +' in Kawaguchi, Saitama Prefecture Japan. Born December 8 1977 in Mexico City, dual national: Mexican and American Citizenship.' +
-        '			<BR>' +
-        '			<BR>Projects include:' +
-        '			<BR><BR><BR><h3>Programming education projects:</h3>' +
-        '			<BR><BR><BR><a href=http://amigojapan.github.io/3dpl/>3DPL GE</a> an environment for novice programmers to learn programming(part of my solution for transitioning from block programming to text programming)' +
-        '			<BR><BR><BR><a href=https://amigojapan.github.io/s-found/>s-found</a> Visual programming language similar to scratch in HTML5 with real-time-interpretation and generates JavaScript (part of my solution for transitioning from block programming to text programming)' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/m-programmer>m-programmer</a>  a project for beginner programmers to learn how a computers think' +
-        '			<BR><BR><BR><a href=http://amigojapan.github.com/Logo-Programming-Game/>Logo programming game</a> a game that is simillar to LOGO but in Javascript' +
-        '			<BR><BR><BR><a href=http://amigojapan.github.io/maths-from-scratch/>Maths from scratch</a>, an attempt to define math in JavaScript, starting with just counting.' +
-        '			<BR><BR><BR><h3>Utilities:</h3>' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/Gekijou>Gekijou</a> a tool for making screenplays into youtube videos using voice synthesis' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/LibrePasswordListGenerator/>LibrePasswordListGenerator</a>, Generates a list of passwords based on a master password, and helps you manage which sites they are for. no passwords are stored on the computer' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/ejspeak>ejspeak</a> A project that makes espeak speak Japanese' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/password_lockdown>password_lockdown</a>, Locks a password down so that you can\'t get it until a certain date/time, you can use it to lock down zip file passwords until the time you are ready for people to use them, also good for locking yoruself out of something until a certain time.' +
-        '			<BR><BR><BR><a href=https://play.google.com/store/apps/details?id=com.usmpadow.MobileRADIDE&hl=en/>Mobile RAD IDE</a>, an IDE for developing Android and iOS apps directly on an Android device' +
-        '			<BR><BR><BR><a href=http://amigojapan.github.com/web-JavaScript-programmable-scientific-calculator/>JS web programmable scientific calculator</a>' +
-        '			<BR><BR><BR><a href=http://wiki.unity3d.com/index.php/Linux_system_profiler.bash>Unity3d linux crash system profiler</a>, a tool for gathering information of a system so that you can send a good bug report to the Unity team ' +
-        '			<BR><BR><BR><a href=https://amigojapan.github.io/tascam_dr-05_time_calculator/tascam_dr-05_time_calculator.html>tascam dr-05 time calculator</a>, This program will let you set a start time when you start recording, and a mark time, and it will tell you where to look in the files of a tascam dr-50 recorder' +
-        '			<BR><BR><BR><h3>Human well-being:</h3>' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/BlindOS>BlindOS</a> a program so that blind people can use their computer.' +
-        '			<BR><BR><BR><a href=http://amigojapan.github.io/blood_pressure_analyzer.html>Free blood pressure analyzer(uses data from the Mayo Clinic)</a>' +
-        '			<BR><BR><BR><h3>Hacks:</h3>' +
-        '			<BR><BR><BR><a href=http://amigojapan.github.io/Arduino-Retro-Computer-with-SD-card-and-LCD-display-and-Keyboard-input-with-BASIC-interpreter/>The Arduino Retro computers LCD</a> version and <a href=http://amigojapan.github.io/Arduino-Retro-Computer-TV/>TV Version</a>' +
-        '			<BR><BR><BR><a href=http://amigojapan.github.com/Arduino-LED-Matrix-Display/>Arduino LED Matrix Display</a>' +
-        '			<BR><BR><BR><h3>Failed projects:</h3>' +
-        '			<BR><BR><BR><a href=http://amigojapan.github.io/Amigojapan-Programming-101-course/AmigojapanProgramming101.html>the amigojapan programming 101 course</a>' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/ajdg>ajdg</a> an attempt at making a better text compression algorithm.' +
-        '			<BR><BR><BR><h3>old projects:</h3>' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/tom-burger-2>tom burger 2</a> a hamburger shop simulation based on the time I worked for dom dom hamburger' +
-        '			<BR><BR><BR><a href=https://github.com/amigojapan/Be-Osama>be osama</a> terrorism strategy game' +
-        '			<BR><BR><BR><a href=http://sandbox.yoyogames.com/games/72683-pachidomi>pachidomi</a> a game that mixes pachinko with a platformer' +
-        '			<BR>' +
-        '			<BR> Usmar A Padow (amigojapan), Contact me at usmpadow@gmail.com' +
-        '			<BR><a href="http://www.bryantsmith.com">web template by web design florida</a>' +
-        '		</div>' +
+    pages.set('main',
+        '\n <div class="maincol">' +
+        '\n        	<h2>Introduction</h2>' +
+        '\n			<br/>amigojapan is a developer and part time engRish(pun intended) and Spanish teacher that has lived '+ time_from_arrival() +' in Kawaguchi, Saitama Prefecture Japan. Born December 8 1977 in Mexico City, dual national: Mexican and American Citizenship.' +
+        '\n			<br/>' +
+        '\n			<br/>Projects include:' +
+        '\n			<br/><br/><br/><h3>Programming education projects:</h3>' +
+        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/3dpl/>3DPL GE</a> an environment for novice programmers to learn programming(part of my solution for transitioning from block programming to text programming)' +
+        '\n			<br/><br/><br/><a href=https://amigojapan.github.io/s-found/>s-found</a> Visual programming language similar to scratch in HTML5 with real-time-interpretation and generates JavaScript (part of my solution for transitioning from block programming to text programming)' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/m-programmer>m-programmer</a>  a project for beginner programmers to learn how a computers think' +
+        '\n			<br/><br/><br/><a href=http://amigojapan.github.com/Logo-Programming-Game/>Logo programming game</a> a game that is simillar to LOGO but in Javascript' +
+        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/maths-from-scratch/>Maths from scratch</a>, an attempt to define math in JavaScript, starting with just counting.' +
+        '\n			<br/><br/><br/><h3>Utilities:</h3>' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/Gekijou>Gekijou</a> a tool for making screenplays into youtube videos using voice synthesis' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/LibrePasswordListGenerator/>LibrePasswordListGenerator</a>, Generates a list of passwords based on a master password, and helps you manage which sites they are for. no passwords are stored on the computer' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/ejspeak>ejspeak</a> A project that makes espeak speak Japanese' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/password_lockdown>password_lockdown</a>, Locks a password down so that you can\'t get it until a certain date/time, you can use it to lock down zip file passwords until the time you are ready for people to use them, also good for locking yoruself out of something until a certain time.' +
+        '\n			<br/><br/><br/><a href=https://play.google.com/store/apps/details?id=com.usmpadow.MobileRADIDE&amp;hl=en/>Mobile RAD IDE</a>, an IDE for developing Android and iOS apps directly on an Android device' +
+        '\n			<br/><br/><br/><a href=http://amigojapan.github.com/web-JavaScript-programmable-scientific-calculator/>JS web programmable scientific calculator</a>' +
+        '\n			<br/><br/><br/><a href=http://wiki.unity3d.com/index.php/Linux_system_profiler.bash>Unity3d linux crash system profiler</a>, a tool for gathering information of a system so that you can send a good bug report to the Unity team ' +
+        '\n			<br/><br/><br/><a href=https://amigojapan.github.io/tascam_dr-05_time_calculator/tascam_dr-05_time_calculator.html>tascam dr-05 time calculator</a>, This program will let you set a start time when you start recording, and a mark time, and it will tell you where to look in the files of a tascam dr-50 recorder' +
+        '\n			<br/><br/><br/><h3>Human well-being:</h3>' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/BlindOS>BlindOS</a> a program so that blind people can use their computer.' +
+        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/blood_pressure_analyzer.html>Free blood pressure analyzer(uses data from the Mayo Clinic)</a>' +
+        '\n			<br/><br/><br/><h3>Hacks:</h3>' +
+        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/Arduino-Retro-Computer-with-SD-card-and-LCD-display-and-Keyboard-input-with-BASIC-interpreter/>The Arduino Retro computers LCD</a> version and <a href=http://amigojapan.github.io/Arduino-Retro-Computer-TV/>TV Version</a>' +
+        '\n			<br/><br/><br/><a href=http://amigojapan.github.com/Arduino-LED-Matrix-Display/>Arduino LED Matrix Display</a>' +
+        '\n			<br/><br/><br/><h3>Failed projects:</h3>' +
+        '\n			<br/><br/><br/><a href=http://amigojapan.github.io/Amigojapan-Programming-101-course/AmigojapanProgramming101.html>the amigojapan programming 101 course</a>' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/ajdg>ajdg</a> an attempt at making a better text compression algorithm.' +
+        '\n			<br/><br/><br/><h3>old projects:</h3>' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/tom-burger-2>tom burger 2</a> a hamburger shop simulation based on the time I worked for dom dom hamburger' +
+        '\n			<br/><br/><br/><a href=https://github.com/amigojapan/Be-Osama>be osama</a> terrorism strategy game' +
+        '\n			<br/><br/><br/><a href=http://sandbox.yoyogames.com/games/72683-pachidomi>pachidomi</a> a game that mixes pachinko with a platformer' +
+        '\n			<br/>' +
+        '\n			<br/> Usmar A Padow (amigojapan), Contact me at usmpadow@gmail.com' +
+        '\n			<br/><a href="http://www.bryantsmith.com">web template by web design florida</a>' +
+        '\n		</div>' +
 "");
 
 

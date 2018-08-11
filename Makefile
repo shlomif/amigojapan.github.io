@@ -24,6 +24,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+SHELL = /bin/bash
+
 GENERATED_FILES = index2.html
 
 all: $(GENERATED_FILES)
@@ -31,5 +33,7 @@ all: $(GENERATED_FILES)
 $(GENERATED_FILES): generate_html.js
 	node $<
 
+test: all
+	tidy -errors -quiet -xml index2.html
 # vim:ft=make
 #
