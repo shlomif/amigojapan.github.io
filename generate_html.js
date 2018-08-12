@@ -401,21 +401,20 @@ function generate() {
         '		<BR>ID1 is 0eb85db5a851a08d2bfb79b9b89654e5f7e4da0589994cc8b22c174ad8ce081cf6f58d1fd6bca28b51221163ca3fb59b016bbee130e8914fa44a2831f30a15ee' +
         '		<BR>ID2 is 39173e03ec4d62113f202817f0666a72f6318158f4f6d89b36d9e7572ac91056257665e28e5783dbca2b57872e27c4fd25c3a7a1c78fea16c5f692abe360d1c5' +
 "");
-    pages.set('self_quotes', '<div class="maincol">' +
-        '		<h2>Self quotes</h2>' +
-        '		<BR><BR>Here is a list of self quotes I have kept stored and am ready to share with the world!.' +
-        '		<BR><BR>' +
-        '		<BR><BR><BR>"I could always be wrong is my motto" -- amigojapan' +
-        '		<BR><BR><BR>"You dont get extra points by being a fanatic" -- amigojapan' +
-        '		<BR><BR><BR>"Even the most irrational people usually think they are logical thinkers" -- amigojapan' +
-        '		<BR><BR><BR>"Being honest is a good rule of thumb.   But let\'s say you are an undercover cop trying to catch a murderer.  Revealing your identity because someone asks would be the wrong thing to do" -- amigojapan' +
-        '		<BR><BR><BR>"Let the people that want to live live.  Let the people who want to die die (support Euthinasia legalization), actually I am having second thoughts on this one, it is a difficult one" -- amigojapan' +
-        '		<BR><BR><BR>"Don\'t think, then you are thinking like a Windows user :)" -- amigojapan' +
-        '		<BR><BR><BR>"I often hear the "it is better in [insert newest version of Windows]" I have grown untrustworthy of this claim." -- amigojapan' +
-        '		<BR><BR><BR>"We have no choice but to live our lives as if we had free will." -- amigojapan' +
-        '		<BR><BR><BR>"To be trully smart you gotta learn to solve problems that nobody can teach you how to solve." -- amigojapan' +
-        '		<BR><BR><BR>"science withought the philosophy of sciece is like policemen withought the law” -- amigojapan' +
-        '		<BR><BR><BR>"using static typing is like tying your shoes before you go out, of course you will save a little time by walking out with unlaced shoes, but if you don\'t do it you will inevitably trip on the laces” -- amigojapan' +
+    pages.set('self_quotes', '\n		<h2>Self quotes</h2>' +
+        '\n		<br/><br/>Here is a list of self quotes I have kept stored and am ready to share with the world!.' +
+        '\n		<br/><br/>' +
+        '\n		<br/><br/><br/>"I could always be wrong is my motto" -- amigojapan' +
+        '\n		<br/><br/><br/>"You dont get extra points by being a fanatic" -- amigojapan' +
+        '\n		<br/><br/><br/>"Even the most irrational people usually think they are logical thinkers" -- amigojapan' +
+        '\n		<br/><br/><br/>"Being honest is a good rule of thumb.   But let\'s say you are an undercover cop trying to catch a murderer.  Revealing your identity because someone asks would be the wrong thing to do" -- amigojapan' +
+        '\n		<br/><br/><br/>"Let the people that want to live live.  Let the people who want to die die (support Euthinasia legalization), actually I am having second thoughts on this one, it is a difficult one" -- amigojapan' +
+        '\n		<br/><br/><br/>"Don\'t think, then you are thinking like a Windows user :)" -- amigojapan' +
+        '\n		<br/><br/><br/>"I often hear the "it is better in [insert newest version of Windows]" I have grown untrustworthy of this claim." -- amigojapan' +
+        '\n		<br/><br/><br/>"We have no choice but to live our lives as if we had free will." -- amigojapan' +
+        '\n		<br/><br/><br/>"To be trully smart you gotta learn to solve problems that nobody can teach you how to solve." -- amigojapan' +
+        '\n		<br/><br/><br/>"science withought the philosophy of sciece is like policemen withought the law” -- amigojapan' +
+        '\n		<br/><br/><br/>"using static typing is like tying your shoes before you go out, of course you will save a little time by walking out with unlaced shoes, but if you don\'t do it you will inevitably trip on the laces” -- amigojapan' +
 "");
     pages.set('first_tenkaichibudoukai', '<div class="maincol">' +
         '		<center><img src=tenkaichibudoukai.jpg></center>' +

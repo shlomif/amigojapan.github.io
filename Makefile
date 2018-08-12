@@ -34,6 +34,6 @@ $(GENERATED_FILES): generate_html.js
 	node $<
 
 test: all
-	tidy -errors -quiet -xml index2.html
+	tidy -errors -quiet -xml index2.html Self_quotes.html
 # vim:ft=make
 #
