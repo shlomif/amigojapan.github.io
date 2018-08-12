@@ -435,16 +435,15 @@ function generate() {
         '		<br/><br/>I am not bad at studying either, cause I have achieved besides learning programming, also learning other languages… I just need to be interested in what I study. Also I keep on studying new programming things even now...' +
         '		<br/><br/>I think regular schooling was not designed for people with a personality like mine.' +
 "");
-    pages.set('Japanese_tech_terms', '<div class="maincol">' +
-        '		<h2>Technical terms you will need to know to become a programmer in Japan in a Japanese company where you can only speak Japanese</h2>' +
-        '		<BR><BR>' +
-        '		<BR><BR>Kanji terms:' +
-        '		<BR><BR>関数(かんすう,kansuu) is function 変数(へんすう,hensuu) is variable 配列(配列,hairetsu) is array　文字の配列(もじのはいれつ,moji no haiteru) is string 番地(ばんち,banchi) is memory address 鯖(さば,saba) is a joke (there is a fish called saba) means server 演算手順(えんざんてじゅん,enzan tejun) is algorithm　乱数(らんすう,ransuu) is a random number　連結(れんけつ、renketsu) is concatenation' +
-        '		<BR><BR>' +
-        '		<BR><BR>Katakana terms' +
-        '		<BR><BR>Most other terms will be in Katakana and they will be loanwords from english like パソコン (pasokon) short for パーソナル(paasonaru,personal) and コンピューター(conpyuutaa,computer) or just easy to understand words like マウス(mausu, mouse)' +
-        '		<BR><BR>' +
-        '		<BR><BR>Note, this is not an exahausive list, if you want me to add a term you know, or just want to ask me for some Katakana term, email me at usmpadow@gmail.com' +
+    pages.set('Japanese_tech_terms', '		<h2>Technical terms you will need to know to become a programmer in Japan in a Japanese company where you can only speak Japanese</h2>' +
+        '		<br/><br/>' +
+        '		<br/><br/>Kanji terms:' +
+        '		<br/><br/>関数(かんすう,kansuu) is function 変数(へんすう,hensuu) is variable 配列(配列,hairetsu) is array　文字の配列(もじのはいれつ,moji no haiteru) is string 番地(ばんち,banchi) is memory address 鯖(さば,saba) is a joke (there is a fish called saba) means server 演算手順(えんざんてじゅん,enzan tejun) is algorithm　乱数(らんすう,ransuu) is a random number　連結(れんけつ、renketsu) is concatenation' +
+        '		<br/><br/>' +
+        '		<br/><br/>Katakana terms' +
+        '		<br/><br/>Most other terms will be in Katakana and they will be loanwords from english like パソコン (pasokon) short for パーソナル(paasonaru,personal) and コンピューター(conpyuutaa,computer) or just easy to understand words like マウス(mausu, mouse)' +
+        '		<br/><br/>' +
+        '		<br/><br/>Note, this is not an exahausive list, if you want me to add a term you know, or just want to ask me for some Katakana term, email me at usmpadow@gmail.com' +
 "");
     let by_id = new Map();
     by_id.set("",'main');
