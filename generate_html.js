@@ -287,39 +287,38 @@ function generate() {
         '		<BR>infinite regress problem' +
         '		<BR>This hypothesis deals with the problem of infinite regression of the universe, which states that “if time is infinite how did we ever get to this point in time when there are an infinite amount of moments between the beginning and now", because this hypothesis does propose that time is infinite but has a beginning that everyone is currently going through one part of time which starts at the beginning and ends at the end. but every part of the trip has always existed.' +
 "");
-    pages.set('multiplication_tricks', '<div class="maincol">' +
-        '		<h2>Compilation of Multiplication tricks for people with bad memory from 0X0 to 10X10 without memorization</h2>' +
-        '		<BR><BR>' +
-        '		<BR>	Chinese multiplication trick that you can do esily using paper' +
-        '		<BR>	<iframe width="560" height="315" src="https://www.youtube.com/embed/_AJvshZmYPs" frameborder="0" allowfullscreen></iframe>' +
-        '		<BR><BR>' +
-        '		<BR>	Using the following tricks you can do all multiplications using either your fingers or small ammounts of tricks' +
-        '		<BR>	0 table.  Anything multiplied by 0 is 0' +
-        '		<BR><BR>' +
-        '		<BR>	1 table. Any number multiplied by 1 is the same number' +
-        '		<BR><BR>' +
-        '		<BR>	2 times table. Double the number' +
-        '		<BR><BR>' +
-        '		<BR>	3 times trick on YouTube (tic tac toe board trick), this is the hardest table.' +
-        '		<BR>	<iframe width="420" height="315" src="https://www.youtube.com/embed/8b_ghkD8jBE" frameborder="0" allowfullscreen></iframe>' +
-        '		<BR>	(another way to do the 3 times table, is to take a number before 3, for example for 5X3, ' +
-        '		<BR>	think of 5X2 and add a 5.)' +
-        '		<BR>	(another example of this method would be take 7X3, go down to 7X2 and add 7)' +
-        '		<BR>	(another way to do it is do the 6 times table and half it for example 6X2 is 12, halfing it results in 6 which is 3X2)' +
-        '		<BR><BR>' +
-        '		<BR>	4 Times table. Simply, double a number and then double it again' +
-        '		<BR><BR>' +
-        '		<BR>	5 times. Just show a finger for each number multiplied and add 5 each time' +
-        '		<BR>	(or you could multiply by 10 and half if)' +
-        '		<BR><BR>' +
-        '		<BR>	(Finger trick) Trick for any table from 6x6 to 10x10' +
-        '		<BR>	<iframe width="420" height="315" src="https://www.youtube.com/embed/twv-ynv_m9o" frameborder="0" allowfullscreen></iframe>' +
-        '		<BR><BR>' +
-        '		<BR>	10 times table is the number plus add a zeor, fo 2X10 is 20.' +
-        '		<BR><BR>' +
-        '		<BR>	One last trick, is that you may choose to use a different trick if the number is not a square (a number times itself) or where both the numbers are over 6X6. for example, instead of using the finger trick for 8X2  you can do 2X8 which should be easier. and the result will be the same.' +
-        '		<BR><BR>' +
-        '		<BR>	 <a href="http://pastebin.com/2PNMxDYS">click here for More tricks for multiplication and practice tools</a>	' +
+    pages.set('multiplication_tricks', '		<h2>Compilation of Multiplication tricks for people with bad memory from 0X0 to 10X10 without memorization</h2>' +
+        '		<br/><br/>' +
+        '		<br/>	Chinese multiplication trick that you can do esily using paper' +
+        '		<br/>	<iframe width="560" height="315" src="https://www.youtube.com/embed/_AJvshZmYPs" frameborder="0" allowfullscreen></iframe>' +
+        '		<br/><br/>' +
+        '		<br/>	Using the following tricks you can do all multiplications using either your fingers or small ammounts of tricks' +
+        '		<br/>	0 table.  Anything multiplied by 0 is 0' +
+        '		<br/><br/>' +
+        '		<br/>	1 table. Any number multiplied by 1 is the same number' +
+        '		<br/><br/>' +
+        '		<br/>	2 times table. Double the number' +
+        '		<br/><br/>' +
+        '		<br/>	3 times trick on YouTube (tic tac toe board trick), this is the hardest table.' +
+        '		<br/>	<iframe width="420" height="315" src="https://www.youtube.com/embed/8b_ghkD8jBE" frameborder="0" allowfullscreen></iframe>' +
+        '		<br/>	(another way to do the 3 times table, is to take a number before 3, for example for 5X3, ' +
+        '		<br/>	think of 5X2 and add a 5.)' +
+        '		<br/>	(another example of this method would be take 7X3, go down to 7X2 and add 7)' +
+        '		<br/>	(another way to do it is do the 6 times table and half it for example 6X2 is 12, halfing it results in 6 which is 3X2)' +
+        '		<br/><br/>' +
+        '		<br/>	4 Times table. Simply, double a number and then double it again' +
+        '		<br/><br/>' +
+        '		<br/>	5 times. Just show a finger for each number multiplied and add 5 each time' +
+        '		<br/>	(or you could multiply by 10 and half if)' +
+        '		<br/><br/>' +
+        '		<br/>	(Finger trick) Trick for any table from 6x6 to 10x10' +
+        '		<br/>	<iframe width="420" height="315" src="https://www.youtube.com/embed/twv-ynv_m9o" frameborder="0" allowfullscreen></iframe>' +
+        '		<br/><br/>' +
+        '		<br/>	10 times table is the number plus add a zeor, fo 2X10 is 20.' +
+        '		<br/><br/>' +
+        '		<br/>	One last trick, is that you may choose to use a different trick if the number is not a square (a number times itself) or where both the numbers are over 6X6. for example, instead of using the finger trick for 8X2  you can do 2X8 which should be easier. and the result will be the same.' +
+        '		<br/><br/>' +
+        '		<br/>	 <a href="http://pastebin.com/2PNMxDYS">click here for More tricks for multiplication and practice tools</a>	' +
 "");
     pages.set('ideas', '<div class="maincol">' +
         '		<h2>Ideas for inventions</h2>' +
