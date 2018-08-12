@@ -172,16 +172,15 @@ function generate() {
         '<br/><br/>I also tend to want to work on new stuff , that hopefully has never been made before... I find boilerplate programming, like making web apps dreadfully boring' +
         '<br/><br/>this:<br/> <img src="images/impossible_stairs.jpg" width=300 /> <br/>versus this: <br/><img src="images/picasso.jpg" width=300/><br/>Both kinds have their rightful place in art' + //by only setting the with it should scale hte hight too, make both pictures the same size'
 "");
-    pages.set('padow_family', '<div class="maincol">' +
-        '		<h2>Story of the Padow family</h2>' +
-        '		<BR>The Padow family is a family of international Jewish immigrants that come from Lithuania and Poland.' +
+    pages.set('padow_family', '		<h2>Story of the Padow family</h2>' +
+        '		<br/>The Padow family is a family of international Jewish immigrants that come from Lithuania and Poland.' +
         '		We escaped from the tzar who was oppressing the Jews.' +
         '		Back in Lithuania the Padow family name used to be called Ezra. Which became Ezrahovich which apparently for some reason to do with Padua Italy the name was changed' +
         '		to Padovich. When my great grandparents arrived at Elis island.  The authorities did not understand their last name and changed it to Padow.' +
         '		My grand parents Alexander (born 1911 died at age 90) and Lilian (lived 97 years) where born in the United States in New York\'s lower east side and' +
         '		eventually moved to Brooklyn where my father Robert Padow was born. They finally went to live in West Palm Beach FL. My grandfather was a chemist and my' +
         '		grandmother an English teacher. My granparen’s hobby was playing bridge, <a href="http://www.nytimes.com/1986/10/01/nyregion/bridge-young-pair-draws-attention-at-an-event-in-white-plains.html">here is an article in the NY Times about them: </a>' +
-        '		<BR>' +
+        '		<br/>' +
         '		My father (Robert Frank, July 1940 - July 2013) was a piano tuner and aspiring movie writer.  He immigrated to Mexico where he met my' +
         '		mom Gloria, aspiring writer (add links), in the state of Chiapas, my mother\'s home town is San Christobal de las Casas. My parents eventually settled in Mexico' +
         '		City, where I was born the 8th of December, 1977. I lived in Mexico City until I was 19 years old, then I went to west palm beach to study at New England' +
@@ -189,14 +188,13 @@ function generate() {
         '		Japanese for 5 years. I arrived in Japan for a visit in 2001 and finally ended up living in Japan in 2002. I met my wife at a backpaker\'s hotel in Kyoto and we' +
         '		soon got married. Our son was born in December 22, 2003. I have lived in Kawaguchi, Saitama prefecture, Japan for '+ time_from_arrival() +
         '		My wife does not like her name, so we call her "Lynn".  My son is called "Chihiro Alexander"' +
-        '		<BR><BR>Please take the time to read my father\'s works which were very valuable to him:' +
-        '		<BR>(English) <a href="http://amigojapan.github.io/dad/Goldmine.pdf">Goldmine in the sky</a>, the tragic story about one of my father\'s friends' +
-        '		<BR>(English) <a href="http://amigojapan.github.io/dad/Guys.pdf">Guys from the avenew</a>, a story about Flatbush Brooklyn NY in the 1950s' +
-        '		<BR>(English) <a href="http://amigojapan.github.io/dad/World.pdf">World corners</a>, an article written by my dad' +
-        '		<BR>(Spanish) <a href="http://amigojapan.github.io/dad/El_Casamiento.pdf">El casamiento de Jovita</a>, play that takes place in Mexico' +
-        '		<BR>(SPanish) <a href="http://amigojapan.github.io/dad/EL_Capitan.pdf">El capitán tiene malos sueños</a>, Spanish adaptation of Nelson Algren\'s "The captain has bad dreams"' +
-        '		<BR><BR>Usmar A Padow (amigojapan) usmpadow@gmail.com - 2015' +
-        '</div>' +
+        '		<br/><br/>Please take the time to read my father\'s works which were very valuable to him:' +
+        '		<br/>(English) <a href="http://amigojapan.github.io/dad/Goldmine.pdf">Goldmine in the sky</a>, the tragic story about one of my father\'s friends' +
+        '		<br/>(English) <a href="http://amigojapan.github.io/dad/Guys.pdf">Guys from the avenew</a>, a story about Flatbush Brooklyn NY in the 1950s' +
+        '		<br/>(English) <a href="http://amigojapan.github.io/dad/World.pdf">World corners</a>, an article written by my dad' +
+        '		<br/>(Spanish) <a href="http://amigojapan.github.io/dad/El_Casamiento.pdf">El casamiento de Jovita</a>, play that takes place in Mexico' +
+        '		<br/>(SPanish) <a href="http://amigojapan.github.io/dad/EL_Capitan.pdf">El capitán tiene malos sueños</a>, Spanish adaptation of Nelson Algren\'s "The captain has bad dreams"' +
+        '		<br/><br/>Usmar A Padow (amigojapan) usmpadow@gmail.com - 2015' +
 "");
     pages.set('reason_came_to_japan', '<div class="maincol">' +
         '		<h2>The reason why I came to Japan</h2>' +

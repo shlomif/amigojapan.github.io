@@ -34,6 +34,6 @@ $(GENERATED_FILES): generate_html.js
 	node $<
 
 test: all
-	tidy -errors -quiet -xml index2.html Self_quotes.html The_pros_and_cons_of_quick_and_dirty_programming.html
+	tidy -errors -quiet -xml index2.html Self_quotes.html The_pros_and_cons_of_quick_and_dirty_programming.html Padow_family_story.html
 # vim:ft=make
 #
