@@ -411,21 +411,21 @@ function generate() {
         '\n		<br/><br/><br/>"science withought the philosophy of sciece is like policemen withought the law” -- amigojapan' +
         '\n		<br/><br/><br/>"using static typing is like tying your shoes before you go out, of course you will save a little time by walking out with unlaced shoes, but if you don\'t do it you will inevitably trip on the laces” -- amigojapan' +
 "");
-    pages.set('first_tenkaichibudoukai', '<div class="maincol">' +
-        '		<center><img src=tenkaichibudoukai.jpg></center>' +
+    pages.set('first_tenkaichibudoukai', '' +
+        '		<div class="center"><img src="tenkaichibudoukai.jpg" /></div>' +
         '		<h2>First freenode IRC #anime tenkaichibudoukai on Sep. 25 23:00JST  </h2>' +
-        '		<BR><BR>' +
-        '		<BR><BR>Hey guys, I bare good news :)' +
-        '		<BR><BR>Someone just gave me a full collection of Dragon Ball figures!' +
-        '		<BR><BR><center><img src=figures_tn.jpg></center>' +
-        '		<BR><BR><center>see <a href=figures.jpg>full pic</a> here</center>' +
-        '		<BR><BR>First we want  people that want the prize to join...' +
-        '		<BR><BR>People that want to participate in the contest send email address to usmpadow@gmail.com be sure to send email saying "I want to join the tenkaichibudoukai, <your irc nick>" by  Sep. 25 22:00JST, no entries will be accepted after that' +
-        '		<BR><BR>Then join us in #anime on freenode at the time assigned.' +
-        '		<BR><BR>I(amigojapan) will give this and pay for the shipping of the package(no guaranties, but I give my word)' +
-        '		<BR><BR><h3>the competition will be a tenkaichibudoukai of the #donger game on freenode IRC</h3> <BR>It is a really simple battle game that anyone can easily just participate without much experience. Of course you can practice it before in #donger on freenode. We will first pair up all the competitors to hold the first round, then we will repeat the process of pairing up and competing until there is a clear winner.' +
-        '		<BR><BR>Please help promote the competition!' +
-        '		<BR><BR>Also would be nice if people could contribute other goods to run future tenkaichibudoukais, if you have something  you want to contribute to a future tenkaichibudoukai, mention it in your email. You will be responsible for sending it to the winner*(this is not a money making tournament, it is just for fun)' +
+        '		<br/><br/>' +
+        '		<br/><br/>Hey guys, I bare good news :)' +
+        '		<br/><br/>Someone just gave me a full collection of Dragon Ball figures!' +
+        '		<br/><br/><center><img src="figures_tn.jpg" /></center>' +
+        '		<br/><br/><center>see <a href=figures.jpg>full pic</a> here</center>' +
+        '		<br/><br/>First we want  people that want the prize to join...' +
+        '		<br/><br/>People that want to participate in the contest send email address to usmpadow@gmail.com be sure to send email saying "I want to join the tenkaichibudoukai, &lt;your irc nick&gt;" by  Sep. 25 22:00JST, no entries will be accepted after that' +
+        '		<br/><br/>Then join us in #anime on freenode at the time assigned.' +
+        '		<br/><br/>I(amigojapan) will give this and pay for the shipping of the package(no guaranties, but I give my word)' +
+        '		<br/><br/><h3>the competition will be a tenkaichibudoukai of the #donger game on freenode IRC</h3> <br/>It is a really simple battle game that anyone can easily just participate without much experience. Of course you can practice it before in #donger on freenode. We will first pair up all the competitors to hold the first round, then we will repeat the process of pairing up and competing until there is a clear winner.' +
+        '		<br/><br/>Please help promote the competition!' +
+        '		<br/><br/>Also would be nice if people could contribute other goods to run future tenkaichibudoukais, if you have something  you want to contribute to a future tenkaichibudoukai, mention it in your email. You will be responsible for sending it to the winner*(this is not a money making tournament, it is just for fun)' +
 "");
     pages.set('schooling_story', '		<h2>My unusual schooling</h2>' +
         '		<br/><br/>' +
