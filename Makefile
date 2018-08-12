@@ -34,6 +34,6 @@ $(GENERATED_FILES): generate_html.js
 	node $<
 
 test: all
-	tidy -errors -quiet -xml index2.html Self_quotes.html The_pros_and_cons_of_quick_and_dirty_programming.html Padow_family_story.html My_unusual_schooling.html Classic_funny_moments_in_programming_channel_on_freenode.html Compilation_of_multiplication_tricks_for_people_with_bad_memory.html First_freenode_anime_channel_Tenkaichibudoukai.html Hypothesis_of_4D_time.html
+	tidy -errors -quiet -xml index2.html Self_quotes.html The_pros_and_cons_of_quick_and_dirty_programming.html Padow_family_story.html My_unusual_schooling.html Classic_funny_moments_in_programming_channel_on_freenode.html Compilation_of_multiplication_tricks_for_people_with_bad_memory.html First_freenode_anime_channel_Tenkaichibudoukai.html Hypothesis_of_4D_time.html Ideas_for_inventions.html
 # vim:ft=make
 #

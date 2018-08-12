@@ -319,73 +319,72 @@ function generate() {
         '		<br/><br/>' +
         '		<br/>	 <a href="http://pastebin.com/2PNMxDYS">click here for More tricks for multiplication and practice tools</a>	' +
 "");
-    pages.set('ideas', '<div class="maincol">' +
-        '		<h2>Ideas for inventions</h2>' +
-        '		<BR><h3>You may use these ideas, but please credit me in your project prominently.</h3>' +
-        '		<BR><BR>' +
-        '		<BR>A system that takes some documents and does not reveal the information until after you fail verifying that you are still alive, you decide how many times you want to verify and how often.' +
-        '		<BR>May also send emails. But emails change, so I think a central web page would be good.' +
-        '		<BR><BR>' +
-        '		<BR>USB electric shock device. This device could be used to enhance the experience of games like FPS games to give a reason to avoid careless actions.' +
-        '		<BR><BR>' +
-        '		<BR>Computer vision for the blind, you could have a device with pins that give a touch feeling of what is being captured by the camera' +
-        '		<BR><BR>' +
-        '		<BR>Skype ringer, a device that you attach to the Ethernet cable so you can tell someone you want to call them by Skype while keeping your computer off' +
-        '		<BR><BR>' +
-        '		<BR>Using computer vision to convert an acoustic piano into a midi sequencer' +
-        '		<BR><BR>' +
-        '		<BR>A reddit for Japan' +
-        '		<BR><BR>' +
-        '		<BR>A 3d platform 3rd person game where you can drop cubes.  Your own cubes work as protection(maybe buildings) and depending on how many cubes you have piled together you can do different special powers. Like a cutting sword that can kill zombies  and you can blow up your pile of blocks to damage your enemies' +
-        '		<BR><BR>' +
-        '		<BR>A sound only game that takes you on an adventure through several places of your city to collect hints and objects while unknowingly excersizing.' +
-        '		<BR><BR>' +
-        '		<BR>Lotto6 number generador where if a winning lottery number is generated we get 20%' +
-        '		<BR><BR>' +
-        '		<BR>A chat client like line. But also like ms comic chat' +
-        '		<BR><BR>' +
-        '		<BR>Video game like taiko no tatsujin. Except you try to imitate your opponent\'s key strokes' +
-        '		<BR><BR>' +
-        '		<BR>p2p web service (gde33)' +
-        '		<BR>Programming language that stores the program state and the current line number each cycle and can be brought back to life any time (GDe)' +
-        '		<BR>I don\'t understand it very well but GDe was talking about a scheme to let people put up their computers as nodes of the network and say for example, if I serve one HTML I have the right to host HTML' +
-        '		<BR><BR>' +
-        '		<BR>Wifi router that gives out temporary passwords at a shop (cafe etc) which can only be used after buying something' +
-        '		<BR><BR>' +
-        '		<BR>A system to confess all your private or illegal secrets which will be kept secret until a time long after you and anyone that can be held responsible can be convicted for it. (What is the point of this? I want eventually any lies I have been telling people, I want the truth to be known, but when it can’t affect me or my family) <BR>Wouldn\'t this just be a time capsule? But there is no guaranty on when and if a time capsule will be opened and read... <BR>relying on lowtech human power seems like the best way to go about this system.<BR>Note:could be misused by people that write lies on it, maybe they want to be worshiped<BR>Maybe it should be kept as encrypted information carved into your tomb stone, it worked for the egyptians for thousands of years. then we would just need to keep the decription key safely, and a society that posts the information in the future, on whatever technology is available then.' +
-        '		<BR><BR>' +
-        '		<BR>A program like lackeyccg (maybe more simple) for smartphones?' +
-        '		<BR><BR>' +
-        '		<BR>A kind of visual studio for web applications which allows design the GUI visually and add code to each event (both client side and server side)' +
-        '		<BR><BR>' +
-        '		<BR>How about a multiplayer platform game where each player is a fighter like in double dragon but it is a free for all (people could perhaps help each other if they want) power recharges at each extreme of the stage could encourage moving from one side to the other)' +
-        '		<BR><BR>' +
-        '		<BR>Make a game where the only way to get game money is to buy real life items in stores and scan a unique QR code' +
-        '		<BR><BR>' +
-        '		<BR>What about a system for horses or stocks where we get a large group of people to join. Each person puts in their prediction for which horse will win. Then we sell the future predictions of the top predictor' +
-        '		<BR>(May be illegal, but, offer a prize for being right)' +
-        '		<BR>Keep the identity of the winners secret' +
-        '		<BR><BR>' +
-        '		<BR>How about offering higher education for free. But having every educated adult having to volunteer some time to work as a teacher of what he learnt? "Teaching duty" at least the cost of paying professional teachers would go away...and perhaps it would even result in better results because often teachers don\'t have anything but theoretical experience...' +
-        '		<BR>On the down side, maybe some people can learn but can\'t teach?' +
-        '		<BR><BR>' +
-        '		<BR>What about a platformer where you can be good or evil? The life bar goes from dead to alive and if you are good being alive is good but if you are bad then being dead is good? (Got idea in dream)' +
-        '		<BR><BR>' +
-        '		<BR>A doorbell that asks if you are a salesman or from a religion, then. Unless they lie. It will tell them they are not welcome, and it won\'t ring' +
-        '		<BR><BR>' +
-        '		<BR>Movie story:' +
-        '		<BR>someone like josh Thorpe that needs to do increasingly impossible tasks. One time he has to kill hitler and he can\'t find his gun. So he crashes into his car and dies. It turns out the universe needs someone to do these difficult tasks. They finally find a replacement but it is hard to convince him to do the difficult tasks.' +
-        '		<BR><BR>' +
-        '		<BR>game using 3dpl engine….   space fortresses. which can be built in space, they use different shapes like crosses, cubes and squares to make different parts of the fortress, like propulsion, weapons and shields. and wire material that is used for connecting the main control panel (controlled as an FPS) to the ship’s systems' +
-        '		<BR><BR>' +
-        '		<BR>Multi-platform desktop environment, a desktop environment that looks the same on any OS(making usability the same for all OSes with ought the need to install a different OS on each system. should inculude a package manager that includes software that is multi platform like Libre Office for anyone that wants to have the same look an feel on any computer' +
-        '		<BR><BR>' +
-        '		<BR>How about making a “bible” of what never to do when programming… this could be a Wiki, and be made into a common (for all programming languages) area, and language specific areas' +
-        '		<BR><BR>' +
-        '		<BR>Game about Hindu astrologi' +
-        '		<BR>You are fighting spirits in a lake or the sky.  At first they don\'t mind you because you cannot affect them much... And you can\'t see them... But as you gain experience you get more spiritual powers and are able to attack them more and more.  And see them more and more clearly. You gain experience by something simillar to puyo puyo (just need to put 3 of a kind side by side)' +
-        '		<BR><BR>' +
-        '		<BR>platformed where you build the levels as you play,you can build and destroy platforms. make  platforms that spawn enemies. this should be a multiplayer game' +
+    pages.set('ideas', '		<h2>Ideas for inventions</h2>' +
+        '		<br/><h3>You may use these ideas, but please credit me in your project prominently.</h3>' +
+        '		<br/><br/>' +
+        '		<br/>A system that takes some documents and does not reveal the information until after you fail verifying that you are still alive, you decide how many times you want to verify and how often.' +
+        '		<br/>May also send emails. But emails change, so I think a central web page would be good.' +
+        '		<br/><br/>' +
+        '		<br/>USB electric shock device. This device could be used to enhance the experience of games like FPS games to give a reason to avoid careless actions.' +
+        '		<br/><br/>' +
+        '		<br/>Computer vision for the blind, you could have a device with pins that give a touch feeling of what is being captured by the camera' +
+        '		<br/><br/>' +
+        '		<br/>Skype ringer, a device that you attach to the Ethernet cable so you can tell someone you want to call them by Skype while keeping your computer off' +
+        '		<br/><br/>' +
+        '		<br/>Using computer vision to convert an acoustic piano into a midi sequencer' +
+        '		<br/><br/>' +
+        '		<br/>A reddit for Japan' +
+        '		<br/><br/>' +
+        '		<br/>A 3d platform 3rd person game where you can drop cubes.  Your own cubes work as protection(maybe buildings) and depending on how many cubes you have piled together you can do different special powers. Like a cutting sword that can kill zombies  and you can blow up your pile of blocks to damage your enemies' +
+        '		<br/><br/>' +
+        '		<br/>A sound only game that takes you on an adventure through several places of your city to collect hints and objects while unknowingly excersizing.' +
+        '		<br/><br/>' +
+        '		<br/>Lotto6 number generador where if a winning lottery number is generated we get 20%' +
+        '		<br/><br/>' +
+        '		<br/>A chat client like line. But also like ms comic chat' +
+        '		<br/><br/>' +
+        '		<br/>Video game like taiko no tatsujin. Except you try to imitate your opponent\'s key strokes' +
+        '		<br/><br/>' +
+        '		<br/>p2p web service (gde33)' +
+        '		<br/>Programming language that stores the program state and the current line number each cycle and can be brought back to life any time (GDe)' +
+        '		<br/>I don\'t understand it very well but GDe was talking about a scheme to let people put up their computers as nodes of the network and say for example, if I serve one HTML I have the right to host HTML' +
+        '		<br/><br/>' +
+        '		<br/>Wifi router that gives out temporary passwords at a shop (cafe etc) which can only be used after buying something' +
+        '		<br/><br/>' +
+        '		<br/>A system to confess all your private or illegal secrets which will be kept secret until a time long after you and anyone that can be held responsible can be convicted for it. (What is the point of this? I want eventually any lies I have been telling people, I want the truth to be known, but when it can’t affect me or my family) <br/>Wouldn\'t this just be a time capsule? But there is no guaranty on when and if a time capsule will be opened and read... <br/>relying on lowtech human power seems like the best way to go about this system.<br/>Note:could be misused by people that write lies on it, maybe they want to be worshiped<br/>Maybe it should be kept as encrypted information carved into your tomb stone, it worked for the egyptians for thousands of years. then we would just need to keep the decription key safely, and a society that posts the information in the future, on whatever technology is available then.' +
+        '		<br/><br/>' +
+        '		<br/>A program like lackeyccg (maybe more simple) for smartphones?' +
+        '		<br/><br/>' +
+        '		<br/>A kind of visual studio for web applications which allows design the GUI visually and add code to each event (both client side and server side)' +
+        '		<br/><br/>' +
+        '		<br/>How about a multiplayer platform game where each player is a fighter like in double dragon but it is a free for all (people could perhaps help each other if they want) power recharges at each extreme of the stage could encourage moving from one side to the other)' +
+        '		<br/><br/>' +
+        '		<br/>Make a game where the only way to get game money is to buy real life items in stores and scan a unique QR code' +
+        '		<br/><br/>' +
+        '		<br/>What about a system for horses or stocks where we get a large group of people to join. Each person puts in their prediction for which horse will win. Then we sell the future predictions of the top predictor' +
+        '		<br/>(May be illegal, but, offer a prize for being right)' +
+        '		<br/>Keep the identity of the winners secret' +
+        '		<br/><br/>' +
+        '		<br/>How about offering higher education for free. But having every educated adult having to volunteer some time to work as a teacher of what he learnt? "Teaching duty" at least the cost of paying professional teachers would go away...and perhaps it would even result in better results because often teachers don\'t have anything but theoretical experience...' +
+        '		<br/>On the down side, maybe some people can learn but can\'t teach?' +
+        '		<br/><br/>' +
+        '		<br/>What about a platformer where you can be good or evil? The life bar goes from dead to alive and if you are good being alive is good but if you are bad then being dead is good? (Got idea in dream)' +
+        '		<br/><br/>' +
+        '		<br/>A doorbell that asks if you are a salesman or from a religion, then. Unless they lie. It will tell them they are not welcome, and it won\'t ring' +
+        '		<br/><br/>' +
+        '		<br/>Movie story:' +
+        '		<br/>someone like josh Thorpe that needs to do increasingly impossible tasks. One time he has to kill hitler and he can\'t find his gun. So he crashes into his car and dies. It turns out the universe needs someone to do these difficult tasks. They finally find a replacement but it is hard to convince him to do the difficult tasks.' +
+        '		<br/><br/>' +
+        '		<br/>game using 3dpl engine….   space fortresses. which can be built in space, they use different shapes like crosses, cubes and squares to make different parts of the fortress, like propulsion, weapons and shields. and wire material that is used for connecting the main control panel (controlled as an FPS) to the ship’s systems' +
+        '		<br/><br/>' +
+        '		<br/>Multi-platform desktop environment, a desktop environment that looks the same on any OS(making usability the same for all OSes with ought the need to install a different OS on each system. should inculude a package manager that includes software that is multi platform like Libre Office for anyone that wants to have the same look an feel on any computer' +
+        '		<br/><br/>' +
+        '		<br/>How about making a “bible” of what never to do when programming… this could be a Wiki, and be made into a common (for all programming languages) area, and language specific areas' +
+        '		<br/><br/>' +
+        '		<br/>Game about Hindu astrologi' +
+        '		<br/>You are fighting spirits in a lake or the sky.  At first they don\'t mind you because you cannot affect them much... And you can\'t see them... But as you gain experience you get more spiritual powers and are able to attack them more and more.  And see them more and more clearly. You gain experience by something simillar to puyo puyo (just need to put 3 of a kind side by side)' +
+        '		<br/><br/>' +
+        '		<br/>platformed where you build the levels as you play,you can build and destroy platforms. make  platforms that spawn enemies. this should be a multiplayer game' +
 "");
     pages.set('crypto_ids', '<div class="maincol">' +
         '		<h2>Cryptographic IDs for proving my identity</h2>' +
