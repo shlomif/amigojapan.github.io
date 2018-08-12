@@ -196,15 +196,14 @@ function generate() {
         '		<br/>(SPanish) <a href="http://amigojapan.github.io/dad/EL_Capitan.pdf">El capitán tiene malos sueños</a>, Spanish adaptation of Nelson Algren\'s "The captain has bad dreams"' +
         '		<br/><br/>Usmar A Padow (amigojapan) usmpadow@gmail.com - 2015' +
 "");
-    pages.set('reason_came_to_japan', '<div class="maincol">' +
-        '		<h2>The reason why I came to Japan</h2>' +
-        '		<center><img src="/images/eternal sailormoon1_color2_copped.jpg" width="50%" height="50%"></center>' +
+    pages.set('reason_came_to_japan', '		<h2>The reason why I came to Japan</h2>' +
+        '		<center><img src="/images/eternal sailormoon1_color2_copped.jpg" width="50%" height="50%" /></center>' +
         '		I always tell people not to tell my wife. But my first love is programming, my second love is Sailor Moon. Then people usually ask "what place is your wife?”' +
         '		So yes, I remember when I watched the TV Azteca ad for Sailor Moon, it said it was “The most animated show on TV” and from the moment I saw the flashing' +
         '		colors of the transformation scene, I was in love with the show for life. My favorite part of Sailor Moon is Sailor Stars which I consider to be a masterpiece of art.' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		So yeah, I wanted to watch Sailor Moon which led to my Studying Japanese so that I could watch the original language version, which lead to getting interested in Japanese culture, which lead me to visit Japan, which lead me to meet my wife, which lead me to live in Japan for '+ time_from_arrival() +
-        '		<BR><BR>Sailor Moon drawn by my wife ;)	' +
+        '		<br/><br/>Sailor Moon drawn by my wife ;)	' +
 "");
     pages.set('how_met_wife', '<div class="maincol">' +
         '		<h2>The story of how I met my Japanese wife</h2>' +
