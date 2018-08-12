@@ -429,16 +429,15 @@ function generate() {
         '		<BR><BR>Please help promote the competition!' +
         '		<BR><BR>Also would be nice if people could contribute other goods to run future tenkaichibudoukais, if you have something  you want to contribute to a future tenkaichibudoukai, mention it in your email. You will be responsible for sending it to the winner*(this is not a money making tournament, it is just for fun)' +
 "");
-    pages.set('schooling_story', '<div class="maincol">' +
-        '		<h2>My unusual schooling</h2>' +
-        '		<BR><BR>' +
-        '		<BR><BR>My schooling was really strange.' +
-        '		<BR><BR>While I was in elementary school I was basically the kid that always looks out the window, and I could not concentrate on classes. I think I could not relate what they were teaching with anything I wanted to do back then.' +
-        '		<BR><BR>I basically did not go to normal school from 12 to 19, meantime I went to a computer programming school for adults.' +
-        '		<BR><BR>That school only allowed people 18 and up to join, but my mom convinced them to give me a 1 month chance and if I could not keep up I would quit. but I kept up till the end and achieved perfect grades.' +
-        '		<BR><BR> Then at 19 I got a GED and went to college at New England Institute of Technology at West Palm Beach.  Unfortunately the West Palm Beach branch does not exist anymore but the main branch does. there I got an AS in computer programming technology and graduated with a 4.0 GPA.' +
-        '		<BR><BR>I am not bad at studying either, cause I have achieved besides learning programming, also learning other languages… I just need to be interested in what I study. Also I keep on studying new programming things even now...' +
-        '		<BR><BR>I think regular schooling was not designed for people with a personality like mine.' +
+    pages.set('schooling_story', '		<h2>My unusual schooling</h2>' +
+        '		<br/><br/>' +
+        '		<br/><br/>My schooling was really strange.' +
+        '		<br/><br/>While I was in elementary school I was basically the kid that always looks out the window, and I could not concentrate on classes. I think I could not relate what they were teaching with anything I wanted to do back then.' +
+        '		<br/><br/>I basically did not go to normal school from 12 to 19, meantime I went to a computer programming school for adults.' +
+        '		<br/><br/>That school only allowed people 18 and up to join, but my mom convinced them to give me a 1 month chance and if I could not keep up I would quit. but I kept up till the end and achieved perfect grades.' +
+        '		<br/><br/> Then at 19 I got a GED and went to college at New England Institute of Technology at West Palm Beach.  Unfortunately the West Palm Beach branch does not exist anymore but the main branch does. there I got an AS in computer programming technology and graduated with a 4.0 GPA.' +
+        '		<br/><br/>I am not bad at studying either, cause I have achieved besides learning programming, also learning other languages… I just need to be interested in what I study. Also I keep on studying new programming things even now...' +
+        '		<br/><br/>I think regular schooling was not designed for people with a personality like mine.' +
 "");
     pages.set('Japanese_tech_terms', '<div class="maincol">' +
         '		<h2>Technical terms you will need to know to become a programmer in Japan in a Japanese company where you can only speak Japanese</h2>' +
