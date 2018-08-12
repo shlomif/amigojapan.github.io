@@ -262,30 +262,29 @@ function generate() {
         '		<br/><h3>The complex image troll</h3>' +
         '		<br/><b>pseudonym:</b>good morning, i have a programming issue today i can be quite elaborate upon, its about taking a large panoramic visual image full of spirals and geometric shapes that change in many ways as it moves from left to right on the image.. i need to reaiize a mathematical solution to describe the image <br/><b>pseudonym:</b>can anybody help please<br/><b>x</b>: what is your dilemma?<br/><b>pseudonym:</b>i need to use computer science to realize the mathematics of the image<br/><b>amigojapan:</b>pseudonym: use LOGO :)    good language for drawing shapes,2D shapes<br/><b>pseudonym:</b>amigojapan im not drawing shapes i need to make a recognition programming using OOP<br/><b>amigojapan:</b>pseudonym: maybe use a Neural Network, they are good  at recognizing images<br/><b>pseudonym:</b>amigojapan, im planing on using OOP<br/><b>amigojapan:</b>maybe glance at the image recognition of neural networks herehttps://developer.nvidia.com/digits<br/><b>pseudonym:</b>amigojapan, its not a major recognition program.. just identify curves spirals etc<br/><b>pseudonym:</b>tho im not doing anything complex<br/><b>amigojapan:</b>you are pseudonym<br/><b>pseudonym:</b>its not a complex image<br/><b>amigojapan:</b>pseudonym: paste the image<br/><b>amigojapan:</b>pseudonym: paste the image,  maybe is there are only a limited number of shapes, you could just compare them to the ones on the other image rotating them in every direction and placing them in every position<br/>•amigojapan suspects the image does not even exist<br/><b>pseudonym:</b>amigojapan, strange speculation and paranoia<br/><b>amigojapan:</b>pseudonym: so why not just paste it here?<br/><b>amigojapan:</b>pseudonym: we have had our share of trolls, and after a while you get good at spotting them<br/><b>amigojapan:</b>things like “I am planning on using OOP”    are red flags, cause obviously OOP is not really related to the problem<br/><b>amigojapan:</b>also, that sounds like you want us to explain how to remake computer vision from scratch pseudonym<br/><b>pseudonym:</b>amigojapan i said i could be elaborate, tho you did say you were not the person to ask, so am ending this duscussion<br/><b>amigojapan:</b>pseudonym: that is an excuse not to past the image, which would be the ovious solution to the acusation of troll<br/><b>pseudonym:</b>amigojapan, i never said i planned on pasting the image<br/><b>amigojapan:</b>ok, I am done. my case is made.<br/><b>pseudonym:</b>amigo japan, your being quite silly now<br/><b>pseudonym:</b>and you actualy seemed to be my freind last time i was in.. im ashamed of you' +
 "");
-    pages.set('time_hypothesis', '<div class="maincol">' +
-        '		<h2>Hypothesis of 4D time</h2>' +
-        '		<BR>Many people treat the universe as if only 3 spacial dimensions existed and only the present exists with the past somehow magically disappearing and the future not existing until we get there. But, think of a YouTube video, every frame has 3 dimensions, breath, width and hight (z,x,y) but you can also fast forward or rewind in the dimension of time(t), but every frame of the video exists no matter what part of the video we are watching.' +
-        '		<BR><BR>' +
-        '		<BR>Implications for the direction of time and time travel' +
-        '		<BR><BR>' +
-        '		<BR>The reason why we may find ourselves always traveling foward in time may be because our bodies and  brains are chemical mechanisms and our experience of time can only happen when the chemical reactions inside our body happen. That is why asking to travel back in time is impossible.  Because the chemical process would need to work in reverse.' +
-        '		<BR><BR>' +
-        '		<BR>Existentialist implications' +
-        '		<BR><BR>' +
-        '		<BR>If all of time exists, then we are eternal (while not infinite) beings.  While you are reading this article, there is another you from five minutes ago working his way up to now. And we are working our way up to ourselves that already exists in the future.' +
-        '		<BR><BR>' +
-        '		<BR>Disprovability: of course we can not prove that the past or the future exist unless we can observe them in some way. We would need a way to prove that the past or future still exist to prove this hypothesis. Observing the future would probably be the best proof because it would not be a reconstruction of the past(but I guess it could be perfect forecast)' +
-        '		<BR><BR>' +
-        '		<BR>Religious implications' +
-        '		<BR><BR>' +
-        '		<BR>If the universe has always existed and will always exist. It eliminates the need for a creator. If you argue that we cannot get rid of causality, I would say that you are already proposing a similar thing by saying that "God is an eternal being". As Carl Sagan said "if you propose that God is eternal, why not take a step back and propose that the universe is eternal.”' +
-        '		<BR><BR>' +
-        '		<BR>Evidence that the past does exist there is no evidence that the past still exists unfortunately, it would seem that everything we know about the past is contained inside the present, like history text books, pictures, etc. all exist only in the present as far as we know.' +
-        '		<BR><BR>' +
-        '		<BR>True statements about the past are evidence that the past still exists<BR>how can a statement about the past be true if the past does not exist anymore? for example, if I say, I had a burrito for breakfast today,  how can it be a true statement if the event of my eating a burrito no longer exists.' +
-        '		<BR><BR>' +
-        '		<BR>infinite regress problem' +
-        '		<BR>This hypothesis deals with the problem of infinite regression of the universe, which states that “if time is infinite how did we ever get to this point in time when there are an infinite amount of moments between the beginning and now", because this hypothesis does propose that time is infinite but has a beginning that everyone is currently going through one part of time which starts at the beginning and ends at the end. but every part of the trip has always existed.' +
+    pages.set('time_hypothesis', '		<h2>Hypothesis of 4D time</h2>' +
+        '		<br/>Many people treat the universe as if only 3 spacial dimensions existed and only the present exists with the past somehow magically disappearing and the future not existing until we get there. But, think of a YouTube video, every frame has 3 dimensions, breath, width and hight (z,x,y) but you can also fast forward or rewind in the dimension of time(t), but every frame of the video exists no matter what part of the video we are watching.' +
+        '		<br/><br/>' +
+        '		<br/>Implications for the direction of time and time travel' +
+        '		<br/><br/>' +
+        '		<br/>The reason why we may find ourselves always traveling foward in time may be because our bodies and  brains are chemical mechanisms and our experience of time can only happen when the chemical reactions inside our body happen. That is why asking to travel back in time is impossible.  Because the chemical process would need to work in reverse.' +
+        '		<br/><br/>' +
+        '		<br/>Existentialist implications' +
+        '		<br/><br/>' +
+        '		<br/>If all of time exists, then we are eternal (while not infinite) beings.  While you are reading this article, there is another you from five minutes ago working his way up to now. And we are working our way up to ourselves that already exists in the future.' +
+        '		<br/><br/>' +
+        '		<br/>Disprovability: of course we can not prove that the past or the future exist unless we can observe them in some way. We would need a way to prove that the past or future still exist to prove this hypothesis. Observing the future would probably be the best proof because it would not be a reconstruction of the past(but I guess it could be perfect forecast)' +
+        '		<br/><br/>' +
+        '		<br/>Religious implications' +
+        '		<br/><br/>' +
+        '		<br/>If the universe has always existed and will always exist. It eliminates the need for a creator. If you argue that we cannot get rid of causality, I would say that you are already proposing a similar thing by saying that "God is an eternal being". As Carl Sagan said "if you propose that God is eternal, why not take a step back and propose that the universe is eternal.”' +
+        '		<br/><br/>' +
+        '		<br/>Evidence that the past does exist there is no evidence that the past still exists unfortunately, it would seem that everything we know about the past is contained inside the present, like history text books, pictures, etc. all exist only in the present as far as we know.' +
+        '		<br/><br/>' +
+        '		<br/>True statements about the past are evidence that the past still exists<br/>how can a statement about the past be true if the past does not exist anymore? for example, if I say, I had a burrito for breakfast today,  how can it be a true statement if the event of my eating a burrito no longer exists.' +
+        '		<br/><br/>' +
+        '		<br/>infinite regress problem' +
+        '		<br/>This hypothesis deals with the problem of infinite regression of the universe, which states that “if time is infinite how did we ever get to this point in time when there are an infinite amount of moments between the beginning and now", because this hypothesis does propose that time is infinite but has a beginning that everyone is currently going through one part of time which starts at the beginning and ends at the end. but every part of the trip has always existed.' +
 "");
     pages.set('multiplication_tricks', '		<h2>Compilation of Multiplication tricks for people with bad memory from 0X0 to 10X10 without memorization</h2>' +
         '		<br/><br/>' +
