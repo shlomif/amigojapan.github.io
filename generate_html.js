@@ -383,13 +383,12 @@ function generate() {
         '		<br/><br/>' +
         '		<br/>platformed where you build the levels as you play,you can build and destroy platforms. make  platforms that spawn enemies. this should be a multiplayer game' +
 "");
-    pages.set('crypto_ids', '<div class="maincol">' +
-        '		<h2>Cryptographic IDs for proving my identity</h2>' +
-        '		<BR><BR>Here is a list of cryptographical IDs that I may need to use some day to prove that I am who I am.' +
-        '		<BR><BR>To determine if I am who I am, you need to run a text that I will provide you through a sha512 hasher like this <a href="http://www.miniwebtool.com/sha512-hash-generator/">online sha512 hash Generator</a> if it matches any of my IDs, that means it is me, ofcourse unless my clear text file has been compromised, let\'s hope that is not he case :). <BR><BR>Notes: mostly I am doing this for fun, but you never know when it may be useful, I recommend everyone does this...<BR>I know the IDs look ugly on my html page, I think this is because HTML does not break up a word with no spaces in it...<BR>Also I can\'t take credit for this, I am imitating a friend who did this...<BR><BR>' +
-        '		<BR>ID0 is fe3633dce83758a9a750b93cb73a761e751d626e9326188c519fdead7dd1f45bd47615560e7fda1aaa75fe96f1cc9a452fd6d2c6128830114c8c581d5e98ffdf' +
-        '		<BR>ID1 is 0eb85db5a851a08d2bfb79b9b89654e5f7e4da0589994cc8b22c174ad8ce081cf6f58d1fd6bca28b51221163ca3fb59b016bbee130e8914fa44a2831f30a15ee' +
-        '		<BR>ID2 is 39173e03ec4d62113f202817f0666a72f6318158f4f6d89b36d9e7572ac91056257665e28e5783dbca2b57872e27c4fd25c3a7a1c78fea16c5f692abe360d1c5' +
+    pages.set('crypto_ids', '		<h2>Cryptographic IDs for proving my identity</h2>' +
+        '		<br/><br/>Here is a list of cryptographical IDs that I may need to use some day to prove that I am who I am.' +
+        '		<br/><br/>To determine if I am who I am, you need to run a text that I will provide you through a sha512 hasher like this <a href="http://www.miniwebtool.com/sha512-hash-generator/">online sha512 hash Generator</a> if it matches any of my IDs, that means it is me, ofcourse unless my clear text file has been compromised, let\'s hope that is not he case :). <br/><br/>Notes: mostly I am doing this for fun, but you never know when it may be useful, I recommend everyone does this...<br/>I know the IDs look ugly on my html page, I think this is because HTML does not break up a word with no spaces in it...<br/>Also I can\'t take credit for this, I am imitating a friend who did this...<br/><br/>' +
+        '		<br/>ID0 is fe3633dce83758a9a750b93cb73a761e751d626e9326188c519fdead7dd1f45bd47615560e7fda1aaa75fe96f1cc9a452fd6d2c6128830114c8c581d5e98ffdf' +
+        '		<br/>ID1 is 0eb85db5a851a08d2bfb79b9b89654e5f7e4da0589994cc8b22c174ad8ce081cf6f58d1fd6bca28b51221163ca3fb59b016bbee130e8914fa44a2831f30a15ee' +
+        '		<br/>ID2 is 39173e03ec4d62113f202817f0666a72f6318158f4f6d89b36d9e7572ac91056257665e28e5783dbca2b57872e27c4fd25c3a7a1c78fea16c5f692abe360d1c5' +
 "");
     pages.set('self_quotes', '\n		<h2>Self quotes</h2>' +
         '\n		<br/><br/>Here is a list of self quotes I have kept stored and am ready to share with the world!.' +
