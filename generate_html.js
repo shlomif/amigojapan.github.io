@@ -210,28 +210,27 @@ function generate() {
         '		<h2>The story of how I met my Japanese wife</h2>' +
         '		I came to Japan some time during 2002 for the second time. I stayed at one of my friend’s houses, one day while she was away at work, I stumbled on a festival where they carry the Omikoshi, I was invited to carry the Omikoshi. it was fun,  sometime during that day, I met an American girl. after meeting her a few times, she asked me to go to Kyoto with her, which was not really to my liking at the time because I was into "New Japan” not “Old Japan” back then.  But finally she convinced me to go.  when we got to Kyoto, all the hotels where booked solid, and only one place let us in, that was the Toujian backpacker’s hotel. That night it was way over crowded, they even had people sleeping on the roof(outdoors)…  My friend and I where sent to sleep on the roof, I asked one of the staff members (who ended up being my wife) to please let my friend move to a place that was not the roof. that was the first time I met my wife. One day I heard that she was going back to Saitama, so I asked her for her contact number. She gave it to me thinking I would not call.  But when I went back to the Tokyo area I asked her if I could stay in her house.  She reluctantly let me… About a month later we were married.<BR>Our marriage was just by law, we had a small party at Hotel New Koyo. Later on once our son was grown, we got professional photographs taken of us With Shiromuko Kimono and Hakama.' +
 "");
-    pages.set('japanese_method', '<div class="maincol">' +
-        '		<h2>The method I used to study Japanese</h2>' +
+    pages.set('japanese_method', '		<h2>The method I used to study Japanese</h2>' +
         '		Many people ask me this question, so I decided to write about it...' +
         'First off, I was really really lucky to be born in a bilingual home! I did not need to study English or Spanish, 2 of the 3 major world languages! And this may of affected the easiness with which I learnt Japanese. But it all started with my falling in love with Sailor Moon! I wanted to watch it in the original language. That is what got me started, and what kept me enthusiastic about studying Japanese all the way through...' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		First, I started by buying a random book on how to learn Japanese in Spanish  in the Mexican shop called Sanborns. I can\'t really remember the name of the book, but it was a quite interesting book with a story of a foreigner that gets in trouble with the Yakuza(Japanese mafia).' +
-        '		<BR>I ate that book up. I think I learned hiragana in one day, which makes it hard for me to understand why some people have trouble learning hiragana.' +
-        '		<BR><BR>' +
+        '		<br/>I ate that book up. I think I learned hiragana in one day, which makes it hard for me to understand why some people have trouble learning hiragana.' +
+        '		<br/><br/>' +
         '		Later on I bought the book series called "Japanese for busy people”' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		I think the most important thing while learning a language is self study and surrounding oneself with the language as much as one can.' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		While I was living in the US, I studied Japanese for busy people, watched VHS video tapes of Japanese TV shows like “Koko ga hen dazo Nihonjin” (“This is what is weird about you Japanese”) which was a TV show where many foreigners explained what they thought was strange about Japanese culture in a panel full of foreigners that had lived for a long time in Japan.' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		I also made many Japanese friends, making one friend led to meeting another and another, and even though there is a very small Japanese community in west palm beach, I got to meet many people, and was friendly with them and spoke on a regular basis.' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		I took Japanese lessons once per week at the Morikami Museum in Boca Raton FL, which is a museum of Japanese culture.' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		I also got a job in a Japanese restaurant owned by Japanese people just to have a chance to speak it.' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		Finally, after 5 years of study and '+ time_from_arrival() +' of living in Japan, I am pretty confident that my Japanese is good enough… I have only taken up to the old version of the JLPT level 2. I will try out for N1 some time in the future.' +
-        '		<BR><BR>' +
+        '		<br/><br/>' +
         '		I mostly concentrated on speaking, so that is what I have most confidence in, I have learned how to read Kanji mostly just by all the written stuff around me… and I hang around in freenode’s ##japanese IRC chatroom. I can mostly type Japanese because it is easy to type in roman characters and the computer (or cellphone) will convert it to Kanji. trying to chat on that channel really helps me practice reading and typing Kanji. I am hopeless when it comes to writing Japanese by hand… I can’t remember the characters. I think the book called “Remembering the Kanji" would be a good method for me to learn Kanji well,  but I have been lazy and I gave up after a couple of months.' +
 "");
     pages.set('classics', '		<h2>Classic funny moments in ##programming on freenode</h2>' +
