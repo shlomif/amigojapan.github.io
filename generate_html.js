@@ -22,10 +22,10 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
         	<h2>Programming</h2>
         	<ul>
             	<li><a href="http://amigojapan.github.io">My projects</a></li>
-				<li><a href="http://amigojapan.github.io/?q=The_pros_and_cons_of_quick_and_dirty_programming">Two kinds of programmers</a></li>
+				<li><a href="http://amigojapan.github.io/The_pros_and_cons_of_quick_and_dirty_programming.html">Two kinds of programmers</a></li>
 				<li><a href="http://amigojapan.github.io/Global_Game_Jam_2017_blog_post.html">Global Game Jam 2017</a></li>
 				<li><a href="http://amigojapan.github.io/amigojapans_programming_curriculum.html">my programming curriculum</a></li>
-                <li><a href="http://amigojapan.github.io/?q=Japanese_programming_technical_terms">Japanese programming technical terms</a></li>
+                <li><a href="http://amigojapan.github.io/Japanese_programming_technical_terms.html">Japanese programming technical terms</a></li>
 				<li><a href="http://amigojapan.github.io/friends_pages.html">My programmer friends page</a></li>
 				<li><a href="http://amigojapan.github.io/8_basics_of_programming.html">8 basics of programming in C and python</a></li>
 				<li><a href="http://amigojapan.github.io/8_Code_Katastrophies_that_help.html">8 Code Katastrophies that help</a></li>
@@ -33,19 +33,19 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
             </ul>
         	<h2>Life stories</h2>
             <ul>
-	            <li><a href="http://amigojapan.github.io/?q=Padow_family_story">Story of the Padow family</a></li>
-                <li><a href="http://amigojapan.github.io/?q=Reason_why_I_came_to_Japan">The reason why I came to Japan</a></li>
-	        <li><a href="http://amigojapan.github.io/?q=Story_of_how_I_met_my_wife">The story of how I met my Japanese wife</a></li>
-                <li><a href="http://amigojapan.github.io/?q=Method_I_used_to_study_Japanese">The method I used to study Japanese</a></li>
-	        <li><a href="http://amigojapan.github.io/?q=Classic_funny_moments_in_programming_channel_on_freenode">Classic funny moments in ##programming on freenode</a></li>
-	        <li><a href="http://amigojapan.github.io/?q=My_unusual_schooling">My unusual schooling</a></li>
+	            <li><a href="http://amigojapan.github.io/Padow_family_story.html">Story of the Padow family</a></li>
+                <li><a href="http://amigojapan.github.io/Reason_why_I_came_to_Japan.html">The reason why I came to Japan</a></li>
+	        <li><a href="http://amigojapan.github.io/Story_of_how_I_met_my_wife.html">The story of how I met my Japanese wife</a></li>
+                <li><a href="http://amigojapan.github.io/Method_I_used_to_study_Japanese.html">The method I used to study Japanese</a></li>
+	        <li><a href="http://amigojapan.github.io/Classic_funny_moments_in_programming_channel_on_freenode.html">Classic funny moments in ##programming on freenode</a></li>
+	        <li><a href="http://amigojapan.github.io/My_unusual_schooling.html">My unusual schooling</a></li>
 
 	    </ul>
         	<h2>Philosophy articles</h2>
         	<ul>
 
 		<li><a href="from_philosophy_to_the_building_blocks_of_computers.html">philosophy to building blocks of computers</a></li>
-            	<li><a href="http://amigojapan.github.io/?q=Hypothesis_of_4D_time">Hypothesis on 4D time </a></li>
+            	<li><a href="http://amigojapan.github.io/Hypothesis_of_4D_time.html">Hypothesis on 4D time </a></li>
             	<!--add later? <li><a href="#">draft of article on lying</a></li>>-->
             </ul>
         	<h2>Religion</h2>
@@ -55,11 +55,11 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
             </ul>
         	<h2>Other</h2>
         	<ul>
-				<li><a href="http://amigojapan.github.io/?q=Ideas_for_inventions">Ideas for inventions</a></li>
-            			<li><a href="http://amigojapan.github.io/?q=Self_quotes">Self quotes</a></li>
-            			<li><a href="http://amigojapan.github.io/?q=Compilation_of_multiplication_tricks_for_people_with_bad_memory">Multiplication tricks for people with bad memory</a></li>
-				<li><a href="http://amigojapan.github.io/?q=amigojapan_Usmar_padows_identity_prover">Cryptographic identity proof</a></li>
-				<li><a href="http://amigojapan.github.io/?q=First_freenode_anime_channel_Tenkaichibudoukai">First Tenkaichibudoukai 2016</a></li>
+				<li><a href="http://amigojapan.github.io/Ideas_for_inventions.html">Ideas for inventions</a></li>
+            			<li><a href="http://amigojapan.github.io/Self_quotes.html">Self quotes</a></li>
+            			<li><a href="http://amigojapan.github.io/Compilation_of_multiplication_tricks_for_people_with_bad_memory.html">Multiplication tricks for people with bad memory</a></li>
+				<li><a href="http://amigojapan.github.io/amigojapan_Usmar_padows_identity_prover.html">Cryptographic identity proof</a></li>
+				<li><a href="http://amigojapan.github.io/First_freenode_anime_channel_Tenkaichibudoukai.html">First Tenkaichibudoukai 2016</a></li>
 				<li><a href="http://imgur.com/a/ICFvK">My wife's drawings</a></li>
 		</ul>
 
