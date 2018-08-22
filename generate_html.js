@@ -460,7 +460,7 @@ function generate() {
 
     for (var q of by_id.keys()) {
         const text = pages.get(by_id.get(q));
-        fs.writeFileSync((q.length > 0 ? q : "index2") + ".html", html_prefix + text + html_suffix);
+        fs.writeFileSync((q.length > 0 ? q : "index") + ".html", html_prefix + text + html_suffix);
     }
 	/*
 	document.getElementById("mylink").onclick = function() {

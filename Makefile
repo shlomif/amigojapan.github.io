@@ -26,7 +26,7 @@
 
 SHELL = /bin/bash
 
-GENERATED_FILES = index2.html
+GENERATED_FILES = index.html
 
 all: $(GENERATED_FILES)
 
@@ -34,7 +34,7 @@ $(GENERATED_FILES): generate_html.js
 	node $<
 
 test: all
-	tidy -errors -quiet -xml Classic_funny_moments_in_programming_channel_on_freenode.html Compilation_of_multiplication_tricks_for_people_with_bad_memory.html First_freenode_anime_channel_Tenkaichibudoukai.html Hypothesis_of_4D_time.html Ideas_for_inventions.html Japanese_programming_technical_terms.html Method_I_used_to_study_Japanese.html My_unusual_schooling.html Padow_family_story.html Reason_why_I_came_to_Japan.html Self_quotes.html Story_of_how_I_met_my_wife.html The_pros_and_cons_of_quick_and_dirty_programming.html amigojapan_Usmar_padows_identity_prover.html index2.html
+	tidy -errors -quiet -xml Classic_funny_moments_in_programming_channel_on_freenode.html Compilation_of_multiplication_tricks_for_people_with_bad_memory.html First_freenode_anime_channel_Tenkaichibudoukai.html Hypothesis_of_4D_time.html Ideas_for_inventions.html Japanese_programming_technical_terms.html Method_I_used_to_study_Japanese.html My_unusual_schooling.html Padow_family_story.html Reason_why_I_came_to_Japan.html Self_quotes.html Story_of_how_I_met_my_wife.html The_pros_and_cons_of_quick_and_dirty_programming.html amigojapan_Usmar_padows_identity_prover.html index.html
 
 # vim:ft=make
 #
