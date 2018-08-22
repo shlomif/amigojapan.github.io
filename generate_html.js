@@ -21,45 +21,45 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
     	<div class="leftcol">
         	<h2>Programming</h2>
         	<ul>
-            	<li><a href="http://amigojapan.github.io">My projects</a></li>
-				<li><a href="http://amigojapan.github.io/The_pros_and_cons_of_quick_and_dirty_programming.html">Two kinds of programmers</a></li>
-				<li><a href="http://amigojapan.github.io/Global_Game_Jam_2017_blog_post.html">Global Game Jam 2017</a></li>
-				<li><a href="http://amigojapan.github.io/amigojapans_programming_curriculum.html">my programming curriculum</a></li>
-                <li><a href="http://amigojapan.github.io/Japanese_programming_technical_terms.html">Japanese programming technical terms</a></li>
-				<li><a href="http://amigojapan.github.io/friends_pages.html">My programmer friends page</a></li>
-				<li><a href="http://amigojapan.github.io/8_basics_of_programming.html">8 basics of programming in C and python</a></li>
-				<li><a href="http://amigojapan.github.io/8_Code_Katastrophies_that_help.html">8 Code Katastrophies that help</a></li>
+            	<li><a href="./">My projects</a></li>
+				<li><a href="The_pros_and_cons_of_quick_and_dirty_programming.html">Two kinds of programmers</a></li>
+				<li><a href="Global_Game_Jam_2017_blog_post.html">Global Game Jam 2017</a></li>
+				<li><a href="amigojapans_programming_curriculum.html">my programming curriculum</a></li>
+                <li><a href="Japanese_programming_technical_terms.html">Japanese programming technical terms</a></li>
+				<li><a href="friends_pages.html">My programmer friends page</a></li>
+				<li><a href="8_basics_of_programming.html">8 basics of programming in C and python</a></li>
+				<li><a href="8_Code_Katastrophies_that_help.html">8 Code Katastrophies that help</a></li>
 
             </ul>
         	<h2>Life stories</h2>
             <ul>
-	            <li><a href="http://amigojapan.github.io/Padow_family_story.html">Story of the Padow family</a></li>
-                <li><a href="http://amigojapan.github.io/Reason_why_I_came_to_Japan.html">The reason why I came to Japan</a></li>
-	        <li><a href="http://amigojapan.github.io/Story_of_how_I_met_my_wife.html">The story of how I met my Japanese wife</a></li>
-                <li><a href="http://amigojapan.github.io/Method_I_used_to_study_Japanese.html">The method I used to study Japanese</a></li>
-	        <li><a href="http://amigojapan.github.io/Classic_funny_moments_in_programming_channel_on_freenode.html">Classic funny moments in ##programming on freenode</a></li>
-	        <li><a href="http://amigojapan.github.io/My_unusual_schooling.html">My unusual schooling</a></li>
+	            <li><a href="Padow_family_story.html">Story of the Padow family</a></li>
+                <li><a href="Reason_why_I_came_to_Japan.html">The reason why I came to Japan</a></li>
+	        <li><a href="Story_of_how_I_met_my_wife.html">The story of how I met my Japanese wife</a></li>
+                <li><a href="Method_I_used_to_study_Japanese.html">The method I used to study Japanese</a></li>
+	        <li><a href="Classic_funny_moments_in_programming_channel_on_freenode.html">Classic funny moments in ##programming on freenode</a></li>
+	        <li><a href="My_unusual_schooling.html">My unusual schooling</a></li>
 
 	    </ul>
         	<h2>Philosophy articles</h2>
         	<ul>
 
 		<li><a href="from_philosophy_to_the_building_blocks_of_computers.html">philosophy to building blocks of computers</a></li>
-            	<li><a href="http://amigojapan.github.io/Hypothesis_of_4D_time.html">Hypothesis on 4D time </a></li>
+            	<li><a href="Hypothesis_of_4D_time.html">Hypothesis on 4D time </a></li>
             	<!--add later? <li><a href="#">draft of article on lying</a></li>>-->
             </ul>
         	<h2>Religion</h2>
             <ul>
 	        <li><a href="https://www.youtube.com/watch?v=PhAkY-pwUvg">Deconversion from the church of world messianity</a></li>
-                <li><a href="http://amigojapan.github.io/Japanese_Haggada">Japanese Haggadah</a></li>
+                <li><a href="Japanese_Haggada">Japanese Haggadah</a></li>
             </ul>
         	<h2>Other</h2>
         	<ul>
-				<li><a href="http://amigojapan.github.io/Ideas_for_inventions.html">Ideas for inventions</a></li>
-            			<li><a href="http://amigojapan.github.io/Self_quotes.html">Self quotes</a></li>
-            			<li><a href="http://amigojapan.github.io/Compilation_of_multiplication_tricks_for_people_with_bad_memory.html">Multiplication tricks for people with bad memory</a></li>
-				<li><a href="http://amigojapan.github.io/amigojapan_Usmar_padows_identity_prover.html">Cryptographic identity proof</a></li>
-				<li><a href="http://amigojapan.github.io/First_freenode_anime_channel_Tenkaichibudoukai.html">First Tenkaichibudoukai 2016</a></li>
+				<li><a href="Ideas_for_inventions.html">Ideas for inventions</a></li>
+            			<li><a href="Self_quotes.html">Self quotes</a></li>
+            			<li><a href="Compilation_of_multiplication_tricks_for_people_with_bad_memory.html">Multiplication tricks for people with bad memory</a></li>
+				<li><a href="amigojapan_Usmar_padows_identity_prover.html">Cryptographic identity proof</a></li>
+				<li><a href="First_freenode_anime_channel_Tenkaichibudoukai.html">First Tenkaichibudoukai 2016</a></li>
 				<li><a href="http://imgur.com/a/ICFvK">My wife's drawings</a></li>
 		</ul>
 
@@ -131,11 +131,11 @@ function generate() {
         '\n			<br/>' +
         '\n			<br/>Projects include:' +
         '\n			<br/><br/><br/><h3>Programming education projects:</h3>' +
-        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/3dpl/">3DPL GE</a> an environment for novice programmers to learn programming(part of my solution for transitioning from block programming to text programming)' +
-        '\n			<br/><br/><br/><a href="https://amigojapan.github.io/s-found/">s-found</a> Visual programming language similar to scratch in HTML5 with real-time-interpretation and generates JavaScript (part of my solution for transitioning from block programming to text programming)' +
+        '\n			<br/><br/><br/><a href="/3dpl/">3DPL GE</a> an environment for novice programmers to learn programming(part of my solution for transitioning from block programming to text programming)' +
+        '\n			<br/><br/><br/><a href="/s-found/">s-found</a> Visual programming language similar to scratch in HTML5 with real-time-interpretation and generates JavaScript (part of my solution for transitioning from block programming to text programming)' +
         '\n			<br/><br/><br/><a href="https://github.com/amigojapan/m-programmer">m-programmer</a>  a project for beginner programmers to learn how a computers think' +
         '\n			<br/><br/><br/><a href="http://amigojapan.github.com/Logo-Programming-Game/">Logo programming game</a> a game that is simillar to LOGO but in Javascript' +
-        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/maths-from-scratch/">Maths from scratch</a>, an attempt to define math in JavaScript, starting with just counting.' +
+        '\n			<br/><br/><br/><a href="/maths-from-scratch/">Maths from scratch</a>, an attempt to define math in JavaScript, starting with just counting.' +
         '\n			<br/><br/><br/><h3>Utilities:</h3>' +
         '\n			<br/><br/><br/><a href="https://github.com/amigojapan/Gekijou">Gekijou</a> a tool for making screenplays into youtube videos using voice synthesis' +
         '\n			<br/><br/><br/><a href="https://github.com/amigojapan/LibrePasswordListGenerator/">LibrePasswordListGenerator</a>, Generates a list of passwords based on a master password, and helps you manage which sites they are for. no passwords are stored on the computer' +
@@ -144,15 +144,15 @@ function generate() {
         '\n			<br/><br/><br/><a href="https://play.google.com/store/apps/details?id=com.usmpadow.MobileRADIDE&amp;hl=en/">Mobile RAD IDE</a>, an IDE for developing Android and iOS apps directly on an Android device' +
         '\n			<br/><br/><br/><a href="http://amigojapan.github.com/web-JavaScript-programmable-scientific-calculator/">JS web programmable scientific calculator</a>' +
         '\n			<br/><br/><br/><a href="http://wiki.unity3d.com/index.php/Linux_system_profiler.bash">Unity3d linux crash system profiler</a>, a tool for gathering information of a system so that you can send a good bug report to the Unity team ' +
-        '\n			<br/><br/><br/><a href="https://amigojapan.github.io/tascam_dr-05_time_calculator/tascam_dr-05_time_calculator.html">tascam dr-05 time calculator</a>, This program will let you set a start time when you start recording, and a mark time, and it will tell you where to look in the files of a tascam dr-50 recorder' +
+        '\n			<br/><br/><br/><a href="/tascam_dr-05_time_calculator/tascam_dr-05_time_calculator.html">tascam dr-05 time calculator</a>, This program will let you set a start time when you start recording, and a mark time, and it will tell you where to look in the files of a tascam dr-50 recorder' +
         '\n			<br/><br/><br/><h3>Human well-being:</h3>' +
         '\n			<br/><br/><br/><a href="https://github.com/amigojapan/BlindOS">BlindOS</a> a program so that blind people can use their computer.' +
-        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/blood_pressure_analyzer.html">Free blood pressure analyzer(uses data from the Mayo Clinic)</a>' +
+        '\n			<br/><br/><br/><a href="/blood_pressure_analyzer.html">Free blood pressure analyzer(uses data from the Mayo Clinic)</a>' +
         '\n			<br/><br/><br/><h3>Hacks:</h3>' +
-        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/Arduino-Retro-Computer-with-SD-card-and-LCD-display-and-Keyboard-input-with-BASIC-interpreter/">The Arduino Retro computers LCD</a> version and <a href="http://amigojapan.github.io/Arduino-Retro-Computer-TV/">TV Version</a>' +
+        '\n			<br/><br/><br/><a href="/Arduino-Retro-Computer-with-SD-card-and-LCD-display-and-Keyboard-input-with-BASIC-interpreter/">The Arduino Retro computers LCD</a> version and <a href="/Arduino-Retro-Computer-TV/">TV Version</a>' +
         '\n			<br/><br/><br/><a href="http://amigojapan.github.com/Arduino-LED-Matrix-Display/">Arduino LED Matrix Display</a>' +
         '\n			<br/><br/><br/><h3>Failed projects:</h3>' +
-        '\n			<br/><br/><br/><a href="http://amigojapan.github.io/Amigojapan-Programming-101-course/AmigojapanProgramming101.html">the amigojapan programming 101 course</a>' +
+        '\n			<br/><br/><br/><a href="/Amigojapan-Programming-101-course/AmigojapanProgramming101.html">the amigojapan programming 101 course</a>' +
         '\n			<br/><br/><br/><a href="https://github.com/amigojapan/ajdg">ajdg</a> an attempt at making a better text compression algorithm.' +
         '\n			<br/><br/><br/><h3>old projects:</h3>' +
         '\n			<br/><br/><br/><a href="https://github.com/amigojapan/tom-burger-2">tom burger 2</a> a hamburger shop simulation based on the time I worked for dom dom hamburger' +
@@ -189,11 +189,11 @@ function generate() {
         '		soon got married. Our son was born in December 22, 2003. I have lived in Kawaguchi, Saitama prefecture, Japan for '+ time_from_arrival() +
         '		My wife does not like her name, so we call her "Lynn".  My son is called "Chihiro Alexander"' +
         '		<br/><br/>Please take the time to read my father\'s works which were very valuable to him:' +
-        '		<br/>(English) <a href="http://amigojapan.github.io/dad/Goldmine.pdf">Goldmine in the sky</a>, the tragic story about one of my father\'s friends' +
-        '		<br/>(English) <a href="http://amigojapan.github.io/dad/Guys.pdf">Guys from the avenew</a>, a story about Flatbush Brooklyn NY in the 1950s' +
-        '		<br/>(English) <a href="http://amigojapan.github.io/dad/World.pdf">World corners</a>, an article written by my dad' +
-        '		<br/>(Spanish) <a href="http://amigojapan.github.io/dad/El_Casamiento.pdf">El casamiento de Jovita</a>, play that takes place in Mexico' +
-        '		<br/>(SPanish) <a href="http://amigojapan.github.io/dad/EL_Capitan.pdf">El capitán tiene malos sueños</a>, Spanish adaptation of Nelson Algren\'s "The captain has bad dreams"' +
+        '		<br/>(English) <a href="/dad/Goldmine.pdf">Goldmine in the sky</a>, the tragic story about one of my father\'s friends' +
+        '		<br/>(English) <a href="/dad/Guys.pdf">Guys from the avenew</a>, a story about Flatbush Brooklyn NY in the 1950s' +
+        '		<br/>(English) <a href="/dad/World.pdf">World corners</a>, an article written by my dad' +
+        '		<br/>(Spanish) <a href="/dad/El_Casamiento.pdf">El casamiento de Jovita</a>, play that takes place in Mexico' +
+        '		<br/>(SPanish) <a href="/dad/EL_Capitan.pdf">El capitán tiene malos sueños</a>, Spanish adaptation of Nelson Algren\'s "The captain has bad dreams"' +
         '		<br/><br/>Usmar A Padow (amigojapan) usmpadow@gmail.com - 2015' +
 "");
     pages.set('reason_came_to_japan', '		<h2>The reason why I came to Japan</h2>' +
