@@ -29,7 +29,6 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
 				<li><a href="friends_pages.html">My programmer friends page</a></li>
 				<li><a href="8_basics_of_programming.html">8 basics of programming in C and python</a></li>
 				<li><a href="8_Code_Katastrophies_that_help.html">8 Code Katastrophies that help</a></li>
-
             </ul>
         	<h2>Life stories</h2>
             <ul>
@@ -39,7 +38,6 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
                 <li><a href="Method_I_used_to_study_Japanese.html">The method I used to study Japanese</a></li>
 	        <li><a href="Classic_funny_moments_in_programming_channel_on_freenode.html">Classic funny moments in ##programming on freenode</a></li>
 	        <li><a href="My_unusual_schooling.html">My unusual schooling</a></li>
-
 	    </ul>
         	<h2>Philosophy articles</h2>
         	<ul>
@@ -60,7 +58,7 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
             			<li><a href="Compilation_of_multiplication_tricks_for_people_with_bad_memory.html">Multiplication tricks for people with bad memory</a></li>
 				<li><a href="amigojapan_Usmar_padows_identity_prover.html">Cryptographic identity proof</a></li>
 				<li><a href="First_freenode_anime_channel_Tenkaichibudoukai.html">First Tenkaichibudoukai 2016</a></li>
-				<li><a href="http://imgur.com/a/ICFvK">My wife's drawings</a></li>
+				<li><a href="https://www.deviantart.com/amigajapan">My wife's drawings</a></li>
 		</ul>
 
       </div>
@@ -74,6 +72,22 @@ const html_suffix = `
 			</div>
   </div>
 <script type="text/javascript">
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2]);//had to modify this form orginal cause the debugger would not let it go thru
+}
+function load(){
+	var q = getParameterByName("q");
+	if(typeof q !== 'undefined' && q　!= null) {
+	    window.location = "http://" + window.location.hostname + window.location.pathname + q + ".html";
+	}
+}
 window.addEventListener("pageshow", function(evt){
            load();
        }, false);
@@ -197,7 +211,7 @@ function generate() {
         '		<br/><br/>Usmar A Padow (amigojapan) usmpadow@gmail.com - 2015' +
 "");
     pages.set('reason_came_to_japan', '		<h2>The reason why I came to Japan</h2>' +
-        '		<center><img src="/images/eternal sailormoon1_color2_copped.jpg" width="50%" height="50%" /></center>' +
+        '		<center><img src="images/eternalsailormoon1_color2_copped.jpg" width="50%" height="50%" /></center>' +
         '		I always tell people not to tell my wife. But my first love is programming, my second love is Sailor Moon. Then people usually ask "what place is your wife?”' +
         '		So yes, I remember when I watched the TV Azteca ad for Sailor Moon, it said it was “The most animated show on TV” and from the moment I saw the flashing' +
         '		colors of the transformation scene, I was in love with the show for life. My favorite part of Sailor Moon is Sailor Stars which I consider to be a masterpiece of art.' +
