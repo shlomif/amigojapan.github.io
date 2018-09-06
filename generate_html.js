@@ -71,27 +71,6 @@ const html_prefix = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
 const html_suffix = `
 			</div>
   </div>
-<script type="text/javascript">
-
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2]);//had to modify this form orginal cause the debugger would not let it go thru
-}
-function load(){
-	var q = getParameterByName("q");
-	if(typeof q !== 'undefined' && q　!= null) {
-	    window.location = "http://" + window.location.hostname + window.location.pathname + q + ".html";
-	}
-}
-window.addEventListener("pageshow", function(evt){
-           load();
-       }, false);
-</script>
 </div>
 </div>
 </body>
@@ -176,6 +155,7 @@ function generate() {
         '\n			<br/> Usmar A Padow (amigojapan), Contact me at usmpadow@gmail.com' +
         '\n			<br/><a href="http://www.bryantsmith.com">web template by web design florida</a>' +
         '\n		</div>' +
+        '\n<script type="text/javascript" src="js/redirect.js"></script>' +
 "");
 
 
