@@ -1,0 +1,73 @@
+<BR></h1>from philosophy to the building blocks of computers, By Usmar A. Padow(amigojapan) usmpadow@gmaill.com 2017</h1>
+<BR>this is the history as far as I understand of how we went from no such thing as binary computers to having them… the most important steps:
+<BR>First there was a philosopher called George Bool, who for some reason or another made what we now call “boolean algebra” back in the 1800s, he was very interested in what the words “AND” , “OR”, “NOT” and “NOR”  meant in the English language…
+<BR>for example, take the phrase “I am typing on my computer now”, I am writing that statement as I type it so it is a true statement,  now take the statement “I am playing ice hokey now” since I am not doing that now, it is a false statement…   lets use the symbols 1 to represent true and 0 to represent false.
+<BR>
+<BR>there is a game called Knights and Knaves:
+<BR>A Knight is a person that can only say the truth, a Knave is a person who can only lie, cannot tell the truth… lets take the following simple example of a Knights and Knaves problem:
+<BR>there is one Knight and one Knave.
+<BR>Person1:”there is only one knight”
+<BR>Person2”I am a knight”.
+<BR>question: who is the knight?
+<BR>
+<BR>pause a second and try to solve it yourself.
+<BR>
+<BR>****
+<BR>
+<BR>the correct answer is Person1 is the knight, because there can only be one knight and that is true, so obviously he can only be the knight, so the knave is Person2 who is lying…
+<BR>
+<BR>I can only imagine that George bool was interested in such games like this, because back in the 1800s this was one thing his calculations could have helped solve.
+<BR>
+<BR>lets go back to my previous statements:
+<BR>“I am typing on my computer now”=1 (true) “I am playing ice hokey now”=0(false)
+<BR>if I said “I am typing on my computer now” AND “I am playing ice hokey now” it would be a false statement. going thru all the possible statements of the AND word we get the following “AND truth table”:
+<BR>1 AND 1 = 1
+<BR>0 AND 1 = 0
+<BR>1 AND 0 = 0
+<BR>0 AND 0 = 0
+<BR>
+<BR>similarly if I say “I am typing on my computer now” OR “I am playing ice hokey now” it is a true statement.
+<BR>and we can build the following “OR truth table”:
+<BR>1 OR 0 = 1
+<BR>0 OR 1 = 1
+<BR>1 OR 0 = 1
+<BR>0 OR 0 = 0
+<BR>
+<BR>the negation or “NOT” is something like this “I am NOT typing on my computer now” is false and “I am NOT playing ice hokey now” is true
+<BR>the “NOT table looks like this”
+<BR>NOT 1 = 0
+<BR>NOT 0 = 1
+<BR>
+<BR>finally I want you to consider a new English word that is not used in common speech, if we combine NOT and AND we call it NAND, this is extremely important because we can use NAND to build any other kind of word like AND, NOT, OR and even some other more fancy “Logic Gates”
+<BR>
+<BR>now let's fast-foward to the 1940s, Claus Shannon was playing around with relays which are kind of electric switches used in telephones to relay a signal over long distances…   a relay can be used as an amplifier as can a transistor, but for now we will only be concerned that they are both electric switches….
+<BR>which means, the switch on a current when a smaller is applied to something and switch it off when no current is applied to it…
+<BR>
+<BR>Cloud Shannon realised that he could replicate the functionality I just mentioned of george bool’s theory using relays…. and this became the basis for modern computers…
+<BR>Cloud Shannons just said “ok lets say 1 is 5 volts and 0 is ground(0 volts)” and combined his relays in a way to make those components…
+<BR>if you understand electronics here is how you make an AND gate from transistors:
+<BR><img src="http://www.electronics-tutorials.ws/logic/log43.gif?x98918">
+<BR>and here is how you make a NOT gate in transistors:
+<BR><img src="http://www.electronics-tutorials.ws/logic/log47.gif?x98918">
+<BR>
+<BR>then just combine them and you have a NAND gate
+<BR>
+<BR>NAND the universal gate:
+<BR>, remember the truth table for a NAND gate is:
+<BR>0 NAND 0 = 1
+<BR>0 NAND 1 = 1
+<BR>1 NAND 0 = 1
+<BR>1 NAND 1 = 0
+<BR>
+<BR>it is a mirror of the AND gate
+<BR>the following symbols in this image are all NAND gates
+<BR>
+<BR><img src="http://d2r5da613aq50s.cloudfront.net/wp-content/uploads/311313.image0.jpg">
+<BR>and modern CPUs are made entirely of NAND gates.
+<BR>
+<BR>further study(external link(pretty difficult))
+<BR>learn who to make a whole computer then learn how your assembly works, then learn how to make a high level programming language, and finally make tetris on your own computer with the nand2tetris course:
+<BR>http://www.nand2tetris.org/
+<BR>
+<BR>(note everything I quoted is all paraphrasing in this article, and perhaps there is some "poetic lisence" involved)
+<BR>(all images from extrenal links)

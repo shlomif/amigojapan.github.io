@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript">
+	function show_prompt() {
+		var top=prompt("Enter top number","");
+		var bottom=prompt("Enter bottom number","");
+		//90 or less on the top number in a blood pressure reading or 60 mm Hg or less  (the bottom number) is generally considered low blood pressure.
+		//Below 120	and Below 80	Normal blood pressure
+		//Between 120-139	or Between 80-89	Prehypertension
+		//Between 140-159	or Between 90-99	Stage 1 hypertension
+		//160 or higher	or 100 or higher	Stage 2 hypertension
+		var output="<h1>";
+		output=output+"Diagnosis:";
+		if(top<=90||bottom<=60) {
+			output=output+"low blood pressure, see a doctor";
+		}else if(top>=160||bottom>=100) {
+			output=output+"Stage 2 hypertension(high blood pressure), Maintain or adopt a healthy lifestyle. Talk to your doctor about taking more than one medication.";
+		}else if(top>=140||bottom>=90) {
+			output=output+"Stage 1 hypertension(high blood pressure), Maintain or adopt a healthy lifestyle. If your blood pressure goal isn't reached in about a month, talk to your doctor about taking one or more medications.";
+		}else if(top>=120||bottom>=80) {
+			output=output+"Prehypertension(slightly higher than normal blood pressure)予備軍, Maintain or adopt a healthy lifestyle.";
+		}else if(top<120&&bottom<80) {
+			output=output+"normal blood pressure, Maintain or adopt a healthy lifestyle.";
+		}
+		output=output+"</h1>";
+		output=output+"<BR>Values may be different for children, ask your doctor. Note: These recommendations address high blood pressure as a single health condition. If you also have heart disease, diabetes, chronic kidney disease or certain other conditions, you may need to treat your blood pressure more aggressively.";
+		output=output+"<BR>sources from the mayo clinic <a href=http://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/blood-pressure/art-20050982>high blood pressure</a> <a href=http://www.mayoclinic.org/diseases-conditions/low-blood-pressure/basics/definition/con-20032298>low blood pressure</a>";
+		output=output+"<BR>Use this information at your own risk,  amigojapan does not take responsibiliry for mistaken diagnosis, but I think it is correct";
+		document.getElementById('output1').innerHTML=output;
+	}
+</script>
+</head>
+<div id="output1">No output</div>
+<body onload="show_prompt()";></body>
+</html>

@@ -1,0 +1,452 @@
+<html><body>
+<BR />8 Basics of Programming
+<BR />
+<BR />Licensed under the Creative Commons Attribution licence (CC-BY),
+<BR />either version 4.0 or at your option, any later version. See:
+<BR />https://creativecommons.org/licenses/by/4.0/
+<BR />
+<BR />Author:Usmar A. Padow (amigojapan), contact: usmpadow@gmail.com
+<BR />
+<BR />Written in 2017.
+<BR />
+<BR />
+<BR />0. Sequentiality
+<BR />1. Variables
+<BR />2. Statements
+<BR />3. Conditionals/blocks 
+<BR />4. Functions/Types 
+<BR />5. Input/output
+<BR />6. Loops 
+<BR />7. Arrays/lists 
+<BR />
+<BR />before we start you can use  <a href=https://repl.it/languages/python>this link to run python code</a> and  <a href=https://repl.it/languages/c>this one for C</a>
+<BR />
+<BR />0.	Sequentiality/Following instructions in order
+<BR />the first thing we need to learn in order to become a programmer is that instructions always follow a regular order, usually from top
+ to down (and sometimes from left to right)
+for example, if I write:
+<pre><code>
+BrushMyTeeth();
+CombMyHair();
+GoToWork();
+</code></pre>
+it will never got or work before I brush my teeth and comb my hair...
+A great program to learn instruction order is lightbot (which does it from left to right and then top to down, but the idea is still there)
+what would happen if I wrote?:
+<pre><code>
+BrushMyTeeth();
+GoToWork();
+CombMyHair();
+</code></pre>
+well, the answer is that I would first brush my teeth, but I would get to work unkempt, which would cause trouble, that is why the order of 
+the instructions in a program is so important… also because "computers are stupid”(recommend
+ watching <a href=https://www.youtube.com/watch?v=EKWGGDXe5MA>this video</a> ) which is another thing to keep in mind, with the
+  previous script I just wrote, the computer will not intelligently know i should comb my hair before going to work.. computers are just
+   not capable of such decision making at this level of programming.
+If you make a large program, and shuffle its instructions around, the program will surely not do what it was originally intended to do.
+By the way, in C this would also work:
+BrushMyTeeth();CombMyHair();GoToWork();
+because C separates instructions by the semicolons
+<BR />
+<BR />1.Variables
+<BR />a variable is a place in the computer memory where some kind of value sometimes a string(some letters),sometimes a number is stored.
+ like the value 5 or the string “hello”.   a variable can have a simple name like just the letter x or any combination of letters like
+  last_name or social_security_number.
+if we have a variable called social_security_number we could assign it the value 123458789 as a sample social security number.
+variables as their name implied can vary, which seems to be different to the mathematical view on variables, in math if you
+ say x=5 then x is always equal to 5,  but in programming we can say x=3; and then x=5; and the value would first be set to 3 and
+  then change to 5.
+in the case of a string, the value between the double quotes will be assigned to the variable, for example if we had last_name we could
+ assign “Albert Einstein” to it easily as follows: last_name= “Albert Einstein”. this is in python,  but in C you would need to use
+  strcpy(last_name, “Albert Einstein”); but beware, because in C if last_name does nto have the size to hold “Albert Einstein” undefined
+   things can happen, I will go more into depth of string on the chapter about arrays because strings in C are nothing but arrays of
+    characters
+Some languages have different requirements for variable names, for example, some languages require that they begin with $ such as $total
+<BR />
+<BR />2.	Statements 
+<BR />this may be the most difficult part to explain of programming,
+almost everything you see in a computer program is a statement, statements are commonly ended with semicolons, but can also appear as
+ keywords such as while() or the thing that goes inside the while(), the condition is also a statement init of itself
+Lets talk about assignment statements.
+for example, lets take the following program
+<pre><code>
+x=3;
+x=5;
+x=x+1;
+</code></pre>
+what will be the result of such a program…
+well, the first statement, x=3; will set x to 3, then the next statement x=5; will (maybe counter-intuitively to those who know math)
+ set x to 5, then the final statement  x=x+1; we need to break down into its  parts.
+we have the x on the left called an “lvalue” which is the same as the first x=3;, where the x is what stores the value, then we have x+1,
+ the value of x at this point of the program is 5 because it comes after x=5; so when we do x+1 it is the same as doing 5+1, and then
+  finally we assign that to the lvalue, so at the end of the program, x will contain 6 which is 5+1.
+*(insert m-programmer program that steps on this program step by step)
+other kinds of statements we will look at later in the book are things like function calls, return statements, conditional statements
+ and boolean statements.
+I would like to touch on boolean statements before we go on.
+boolean values.
+a boolean value is a value that can either contain a true or false value.
+a boolean statement is something that evaluates(is calculated) to either a true or false value
+for example x=5>3;  the x is our usual lvalue which will store the result of the following operation. the operation is 5>3 , and
+ since 5 is more than 3, this will evaluate to true. in the C programming language and many other languages any value that is not 0 is
+  true, and true is usually 1, so 5>3 will become the value 1 which will make x equal to 1 which means x is true now.
+   if we did this instead, x=3>5 then the x would end up being 0 in C.  other languages like Javascript have actual boolean values
+    which are not necessarily a number at all, they just contain true or false, so the variables worn contain a 1 or a 0, instead of
+     that they will actually contain true or false.
+<BR />
+<BR />3. Conditionals/block of code 
+<BR />a conditional statement is a statement which give usually two different flow controls depending on wether the statement it is
+ evaluation is true or false, for example:
+<pre><code>
+x=5>3;
+if(x) {
+	//this block of code which will run
+}
+</code></pre>
+when explaining conditionals I am forced to explain block of code as well…
+basically a block of code is an area of code surrounded by curly braces { }
+a block of code can contain many statements or just one statement or even no statements.
+but before I go deep into blocks of code, lets look at the previous example. x became true because of the first statement in the
+ program, if(x) checks to see if x is true or false, if it is true it will run the following statement which is usually a block of code.
+If I switch it around to:
+<pre><code>
+x=3>5;
+if(x) {
+	//this block of code won't run
+}
+</code></pre>
+then the block of code won’t run. because x is false.
+we can make these into shorter programs as follows:
+<pre><code>
+if(5>3) {
+	//this block of code which will run
+}
+if(3>5) {
+	//this block of code won't run
+}
+</code></pre>
+the if statement becomes even more useful when we introduce the “else” statement, for example in the following program: 
+<pre><code>
+x=5>3;
+if(x) {
+	//this block of code which will run
+} else {
+	//this block of code won't run
+}
+</code></pre>
+now lets get into blocks of code.
+what if I wrote the following program? 
+<pre><code>
+x=5>3;
+if(x) {
+	//this block of code which will run
+	y=10;
+} else {
+	//this block of code won't run
+	y=20
+}
+</code></pre>
+what would y be at the end of the program execution?
+try to solve this yourself.
+the answer is: 10 because the block of code that run made y into 10
+then again, lets say the program said this:
+<pre><code>
+x=3>5;
+if(x) {
+	//this block of code won't run
+	y=20
+	y=y+1;
+} else {
+	//this block of code which will run
+	y=10;
+	y=y+2;
+}
+</code></pre>
+what would y contain at the end of the program?
+try to solve this.
+the answer is it would contain 12.
+why is this?
+the reason is that in the first statement of the program x becomes false
+then the fi statement tests that to be false, and jumpy to the else part of the program, where y is set to 10 and then 2 is added to y
+*(show a comparison between scratch blocks and a program made in C like i did to andre)
+*(show the am I able to vote in Japan flowchart)
+<BR />
+<BR />4. Procedures/functions 
+<BR />now functions need to be broken down into 2 separate parts, the easy part which is a function call and the hard part which is a
+ function declaration.
+in the be inning go this paper I used three function calls to say what I was telling the computer to do:
+<pre><code>
+BrushMyTeeth();
+CombMyHair();
+GoToWork();
+</code></pre>
+I think I will use C as an example of how function declarations should be written, because it is “explicitly typed” which means you
+ need to write down what kind of data you get and take from it… in many other languages like Javascript and Python just don’t use that
+  system at all, but if you are ever in the situation of needing to learn an explicit typed language, it is better if you know 
+  it beforehand...
+OK, this is an example of a function definition:
+<pre><code>
+float calculate_tax(float tax_rate, float amount) {
+	return amount * tax_rate;
+}
+</code></pre>
+this is a function call, let me explain every part of the function call,
+the gift “float” is the “return type” or what kind of information the function will return, the reason why I used float instead of
+ int (integer), is because floating point variables will allow me to represent the result of such an operation, the tax value of some
+  money will usually have  a decimal part and the fractional part of a number, in other words, a number like 3.99 , needs to be a float
+   because of the .99 part of the number… and altho the tax rate here in Japan in currently 0.8% finally amount, again, since amount can
+    be 3.99 it again needs to be a float number.
+by the way tax_rare and amount are what we call “parameters to the function” they are the information the function takes in.
+then we see a code block. and the first instruction in the code block is the return statement…   return takes the following value, 
+evals is (calculates it) and finally gives that back to the function call.
+now lets take a look at some sample function calls:
+float candy_value=2.00;
+float candy_value_plus_tax;
+candy_value_plus_tax = calculate_tax(0.8, candy_value);//this is a function call
+The first line in C will setup the value of the candy, in this case 2.00 in a float variable.
+The second line sets up the variable which will eventually hold the value of the candy after tax.
+then comes the function call, first the parameters are sent tot he function so 8.0 and 2.00 are sent to the previously defined function...
+ taking their place as tax_rate now being equal to 8.0 and amount now being equal to 2.00.
+then we get return amount * tax_rate. so int this specific function call, it will be like this:
+ return 2.00*0.8;
+first we solve the vale of 2.00*0.8  which is 1.6 then the return statement hands that back to the function call, and
+ sets candy_value_plus_tax to 1.6
+<BR />
+<BR />5.Input/output
+<BR />ok, first to explain output you need to understand that computers used to be connected to something called a teletype, which was
+ like a typewriter and a printer, and instead of using a screen they used to print on paper for output...
+<BR />
+<BR />now, here is the most simple program every programmer starts out with (in C)
+<pre><code>
+#include&lt;stdio.h&gt;
+
+int main() {
+	printf("hello world");
+	return 0;
+}
+</code></pre>
+or even more simple in python just
+print “hello world”
+the C version needs quite a bit to explain it, first of all, you are including the stdio.h header file in order to be able to call
+ the printf() function. then you have the main function definition, main is a special function in C which is called once per
+  execution of the program. main returns an integer, which at the end of the program is a 0, which basically
+   means “the program ended with no errors”
+now lets look at 	printf(“hello world”); which is out output function.
+the printf() function in it’s most simple form just takes a string (which in C is an array of characters(more on arrays later on)) and 
+prints them on the teletype or displays them on the screen nowadays.
+this program would literally print hello world  on a piece of paper in the old days, nowadays it prints it into a “virtual console” or
+ “terminal program”.
+the python version does the same, but with obviously much more simplicity to it...
+now lets try putting an integer into our string:
+<pre><code>
+#include&lt;stdio.h&gt;
+
+int main() {
+	int a=42;
+	int b=36;
+	printf("value of a is %i and value of b is %i", a, b);
+	return 0;
+}
+</code></pre>
+this printf has two placeholders called %i which %i means it is waiting for an integer value. the first parameter to
+ the printf statement is “value of a is %i and value of b is %i” which itself is a string, and contains two placeholders
+  for integers. then the second and third parameters which are a and b which contain the integers that will replace the
+   two %i’s in the string. then finally this is computed and printed of the screen.
+in python this same program is quite a bit more simple, it would go as follows:
+<pre><code>
+a=42;
+b=36;
+</code></pre>
+printf "value of a is " + str(a) + " and value of b is " + str(b)
+in python the plus sign means “concatenation of string” in this context, which means python will take “value of a is “ and connect
+ a 42 to it then it will connect " and value of b is “ and connect 36
+both the python and C programs will produce the same output, which is:
+value of a is 42 and value of b is 36
+note that str() is a function which takes a number and returns a string in python
+<BR />
+<BR />now lets try some input:
+<pre><code>
+#include&lt;stdio.h&gt;
+
+int main() {
+        char name[100];
+        char lname[100];
+        printf("enter your name and last name:");
+        scanf("%s %s", &name, &lname);
+        printf("welcome to our program %s %s\n", name, lname);
+        return 0;
+}
+</code></pre>
+this program will ask you for your name and last name, and then print out welcome to our program followed by your name and last name.
+first we reserve 100 characters to hold name and  100 characters to hold lame, scanf is quite a com-plicated function,  but lets just
+ say that in this case the two %s means it is expecting two words separated by a space and stores the first word in name and the
+  second word in lame. then printf has %s %s which are two placeholders for two separate strings, one for each variable that is
+   passed, namely name and lname. finally the string has a \n which in C means it will put a new line at the end of this print,
+    which means it will scroll down one more line
+Variables that are setup inside a function belong to that function. Other functions can't see them. But
+ because we want scanf to send values back when we call it, we use & to give scanf a special value it can use to write to that value.
+  This value is called a pointer.
+but pointers are one of the most difficult portions of C and are beyond the scope of this tutorial
+almost the same program in python:
+<pre><code>
+print "enter your name:"
+name=raw_input()
+print "enter your last name:"
+lname=raw_input()
+print "welcome to our program " + name + " " + lname + "\n"
+</code></pre>
+<BR />
+<BR />6. Loops 
+<BR />
+while loop
+a while loop is a loop that executed while a condition is true, and ends when a condition is not true.
+an example of a while loop in C would be:
+<BR />
+<pre><code>
+#include&lt;stdio.h&gt;
+
+int main() {
+        int cont=1;
+        while(cont==1) {
+                printf("continue? 1)Yes 2)No:");
+                scanf("%i", &cont);
+        }
+        return 0;
+}
+</code></pre>
+<BR />this program will loop over and over again until someone hits 2(or any other number other than 1.
+<BR />
+notice that the while() expression contains continue==1 instead of continue=1, this is so that the C programming
+language can tell the difference between an equal sign for assignment and an double equal sign for comparison.
+an equal for assignment like continue=1 would make continue equal to one,  but a double equal sign is for comparison
+will take continue which is set to 1 on the line int continue=1; and compare it to 1, if this is a match, the entire
+expression continue==1 will be come 1 or true.  and when the contents of the conditional inside while(conditional)
+is true, the following block of code will be run. now lets say the program runs once and the user selects 2, then
+it loops back onto while(continue==1) where continue is now 2, continue==1 is false, so in C it will become 0, and
+the while loop will skip to the end of the block, ending execution of the loop and the program will end. if the
+user chooses 1, then the contention will continue to be true, and the program will ask the user for his input
+again, until the user no longer chooses 1
+<BR />
+<BR />the same program in python would be better written like this:
+<pre><code>
+cont="1"
+while cont=="1":
+    print "continue? 1)Yes 2)No:"
+    cont=raw_input()
+</code></pre>
+<BR />note that in python we dont use curly braces, instead of that we use a tab, or any arbitrary number of spaces to indicate a new block
+ of code
+this is designed to reduce the number of lines used when writing a program.
+which brings to mind why I have been writing the programs with ought every line being ("indented", put some space) even in C, and 
+the answer is that even if C, even tho it is not a law like in python, it is still a better idea to indent than not to indent because when
+ we get
+into blocks inside blocks, it can get very hard to tell which curly { ends which } so indentation gives us a visual way to recognize it
+<BR />
+<BR />do while loop
+while this kind of loop is not as common as while loops, it is still useful and can be neater in certain situations:
+lets take these two examples from wikipedia
+<pre><code>
+do {
+   do_work();  
+} while (condition);
+</code></pre>
+<BR />
+<BR />is equivalent to
+<BR />
+<pre><code>
+do_work();
+while (condition) {
+   do_work();
+}
+</code></pre>
+<BR />
+<BR />so you can see how we can save ourselves from calling do_work(); twice
+<BR />
+for loop
+<BR />for loop is the most prevalent kind of loop in my opinion.
+a for loop had a portions where you initialize a variable, then a conditional statement, then a portion where you
+can increment(or do other operations) with the variable you are using
+and while while loops can do anything a for loop can do, it would take up more lines of code to do the same thing.
+so a for loop is a nice shortcut for writing a loop that repeats a certain ammount of times.
+<BR />
+<pre><code>
+#include&lt;stdio.h&gt;
+
+int main() {
+    int sum = 0;
+    for(int counter = 1; counter < 10; ++counter) {
+        printf("counter is %i and sum is %i\n", counter, sum);
+        sum += counter; 
+    }
+}
+</code></pre>
+<BR />
+notice that sum += counter is just a shortcut form to type sum = sum + counter
+the counter is initialized to 1 then the condition for the loop to continue would be counter < 10 and ++counter is a shortcut for
+ saying counter=counter+1
+<BR />
+<BR />we could write the same program using a while loop, as follows:
+<BR />
+<pre><code>
+#include&lt;stdio.h&gt;
+
+int main() {
+    int sum = 0;
+    int counter = 1;
+    while(counter < 10) {
+        printf("counter is %i and sum is %i\n", counter, sum);
+        sum += counter;
+        ++counter;
+    }
+}
+</code></pre>
+<BR />
+<BR />and in python it would be:
+<BR />
+<pre><code>
+sum = 0
+for counter in range(1,10):
+    print  "counter is " + str(counter) + " and sum is " + str(sum)
+    sum += counter
+</code></pre>    
+<BR />
+<BR />the output of all of these programs is:
+<BR />counter is 1 and sum is 0
+<pre><code>
+counter is 2 and sum is 1
+counter is 3 and sum is 3
+counter is 4 and sum is 6
+counter is 5 and sum is 10
+counter is 6 and sum is 15
+counter is 7 and sum is 21
+counter is 8 and sum is 28
+counter is 9 and sum is 36
+</code></pre>
+<BR />
+<BR />7. Arrays/lists
+<BR />well, first lets take a look at a simple int array in C;
+the easiest way to put information into an array in C is by "initializing it" I will give the following example:
+int myarr[10] = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+this makes an array of 10 integer elements who's zerowe'th element is can be accessed using myarray[0] and that will contain
+the integer 9, it will behave exactly like an integer variable once you identify the element you want to access myarr[1]
+will contain the integer 8 arr[2] the integer 7 and do on...
+note, initialization can only be done when the array is created not later.
+another very important thing to know in C is that we ALWAYS COUNT FROM 0, that is why it is myarray[0] and not myarray[1]
+if I want to change the value of myarray[0]  to 100, as I said, it behaves exactly like an integer. you just do myarray[0]=100;
+from then on, tne contents of the array would look pretty much like this [100, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+*important* in C "strings" are really just arrays of characters. so giving a similar example to the last one:
+<BR />char myarr[10] = "hello";
+<BR />is the same as saying:
+<BR />char myarr[10] = ['h','e','l','l','o','\0'];
+let me explain this, same the zerowe'th element is myarray[0] and it contains 'h'  , notice we MUST surrouns single character simbols
+in single quotes, double quotes would make it a string and that is not what this array can hold on each slot. and the fifth element is '\0'
+which is a special character that means "string terminator" or "this string ends here" this is because C is not smart enough to know where
+the string ends and it needs help to find out where it ends even back in char myarr[10] = "hello"; this character is automatically appended 
+to the end of the string, it is just dont "magically"(so we dont notice it) if we make this following
+ string char mystr[10] = "hello\0world";
+and then try to print that, you will notice that only hello prints, cause C thinks the string ends at hello.
+another thing that is extremely important about arrays and strings is that you MUST always make sure there are enough elements to hold the
+ string you are assigning or copying
+to it otherwise you will encounter "undefined behavior"(means we don't know exactly what will happen, but it is not good)
+in python you just make a  string by doing variablename="string" it is that simple.
+</body></html>
