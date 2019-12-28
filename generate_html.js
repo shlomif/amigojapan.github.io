@@ -452,9 +452,11 @@ function generate() {
     by_id.set("My_unusual_schooling",'schooling_story');
     by_id.set("Japanese_programming_technical_terms",'Japanese_tech_terms');
 
+    const output_dir = "dest";
+    fs.mkdirSync(output_dir);
     for (var q of by_id.keys()) {
         const text = pages.get(by_id.get(q));
-        fs.writeFileSync((q.length > 0 ? q : "index") + ".html", html_prefix + text + html_suffix);
+        fs.writeFileSync(output_dir + "/" + (q.length > 0 ? q : "index") + ".html", html_prefix + text + html_suffix);
     }
 	/*
 	document.getElementById("mylink").onclick = function() {
